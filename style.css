@@ -1,0 +1,21 @@
+.header {
+  border-bottom-style: solid;
+  padding: 40px 0px;
+}
+.header p {
+  margin: 0;
+}
+.site-content {
+  margin-top: 40px;
+}
+.page-content {
+  border-style: solid;
+  border-color: lightgray;
+  padding: 30px;
+}
+.page-content .page-content-title {
+  margin-bottom: 30px;
+}
+nav .btn {
+  margin-bottom: 25px;
+}
