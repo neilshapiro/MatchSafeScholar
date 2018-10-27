@@ -1,0 +1,8 @@
+<nav class="nav flex-column">
+  <a class="btn btn-outline-secondary" href="/index.html">Gallery</a>
+  <a class="btn btn-outline-secondary" href="/works.html">Published Works</a>
+  <a class="btn btn-outline-secondary" href="/exhibition.html">Museum Exhibition</a>
+  <a class="btn btn-outline-secondary" href="/services.html">Services</a>
+  <a class="btn btn-outline-secondary" href="/links.html">Links</a>
+  <a class="btn btn-outline-secondary" href="/contact.html">Contact</a>
+</nav>
