@@ -16,6 +16,9 @@
 .page-content .page-content-title {
   margin-bottom: 30px;
 }
+#site-nav {
+  padding-left: 0px;
+}
 nav .btn {
   margin-bottom: 25px;
 }
@@ -25,4 +28,16 @@ nav .btn {
 .book-slider .card {
   margin: 0 10px;
   padding: 20px 0;
+}
+#links p {
+  margin-bottom: 5px;
+}
+#links a {
+  display: block;
+  margin-bottom: 20px;
+}
+table td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
 }
