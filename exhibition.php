@@ -8,34 +8,34 @@ require_once("page_start.php");
   <p class="text-center" style="margin-bottom:30px;">These are images from an exhibition of match safes, and vestas, at the Delaware Art Museum, entitled, <b>PORTABLE FIRE</b>, 13 September 2014 – 15 March 2015. A catalog from this exhibition is available for purchase.</p>
   <div class="row">
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me0.jpg">
+      <img class="img-fluid" src="img/exhibition/0.jpg">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me1.jpg">
-    </div>
-  </div>
-  <div class="row" style="margin-top: 30px;">
-    <div class="col-md-6">
-      <img class="img-fluid" src="static/me2.jpg">
-    </div>
-    <div class="col-md-6">
-      <img class="img-fluid" src="static/me3.jpg">
+      <img class="img-fluid" src="img/exhibition/1.jpg">
     </div>
   </div>
   <div class="row" style="margin-top: 30px;">
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me4.jpg">
+      <img class="img-fluid" src="img/exhibition/2.jpg">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me5.jpg">
+      <img class="img-fluid" src="img/exhibition/3.jpg">
     </div>
   </div>
   <div class="row" style="margin-top: 30px;">
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me6.jpg">
+      <img class="img-fluid" src="img/exhibition/4.jpg">
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="static/me7.jpg">
+      <img class="img-fluid" src="img/exhibition/5.jpg">
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-6">
+      <img class="img-fluid" src="img/exhibition/6.jpg">
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="img/exhibition/7.jpg">
     </div>
   </div>
 </div>

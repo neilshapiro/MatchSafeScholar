@@ -10,7 +10,7 @@ require_once("page_start.php");
   <hr>
   <div class="row">
     <div class="col-md-5">
-      <img class="img-fluid" src="static/me0.jpg">
+      <img class="img-fluid" src="img/exhibition/0.jpg">
     </div>
     <div class="col-md-7">
       <h2>APPRAISALS</h2>
@@ -19,7 +19,7 @@ require_once("page_start.php");
   </div>
   <div class="row" style="margin-top:30px;">
     <div class="col-md-5">
-      <img class="img-fluid" src="static/me1.jpg">
+      <img class="img-fluid" src="img/exhibition/1.jpg">
     </div>
     <div class="col-md-7">
       <h2>RESEARCH</h2>

@@ -15,13 +15,13 @@ require_once("page_start.php");
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active" data-caption="<h5>Picture 1</h5><p>Some brief details describing Picture 1.</p>">
-            <img class="d-block w-100" src="static/Crystal.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/gallery/0.jpg" alt="Slide 0">
           </div>
           <div class="carousel-item" data-caption="<h5>Picture 2</h5><p>Some brief details describing Picture 2.</p>">
-            <img class="d-block w-100" src="static/Huge jap.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/gallery/1.jpg" alt="Second slide">
           </div>
           <div class="carousel-item" data-caption="<h5>Picture 3</h5><p>Some brief details describing Picture 3.</p>">
-            <img class="d-block w-100" src="static/Jap_sword_safe1.jpg" alt="Third slide">
+            <img class="d-block w-100" src="img/gallery/2.jpg" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
