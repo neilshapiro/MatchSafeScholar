@@ -13,8 +13,8 @@
       <img class="img-fluid" src="img/exhibition/0.jpg">
     </div>
     <div class="col-md-7">
-      <h2>APPRAISALS</h2>
-      <p>I only appraise match safes, vestas and match holders. Nothing else. I will estimate the quality, nature, and sometimes the value, of your match safes, vestas, and match holders.</p>
+      <h2>RESEARCH</h2>
+      <p>I can and sometimes will do a careful investigation about your match safe, vesta, and match holder. This includes trying to ascertain the maker, materials, period of manufacture, country of origin, and authenticity.</p>
     </div>
   </div>
   <div class="row" style="margin-top:30px;">
@@ -22,8 +22,8 @@
       <img class="img-fluid" src="img/exhibition/1.jpg">
     </div>
     <div class="col-md-7">
-      <h2>RESEARCH</h2>
-      <p>I can and sometimes will do a careful investigation about your match safe, vesta, and match holder. This includes trying to ascertain the maker, materials, period of manufacture, country of origin, and authenticity.</p>
+      <h2>APPRAISALS</h2>
+      <p>I only appraise match safes, vestas and match holders. Nothing else. I will estimate the quality, nature, and sometimes the value, of your match safes, vestas, and match holders.</p>
     </div>
   </div>
 </div>
