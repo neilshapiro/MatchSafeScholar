@@ -6,12 +6,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <?php if($page == "gallery"): ?>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script>
-    $(function(){
-      $("#gallery").on('slide.bs.carousel', function(slideEvent) {
-        $('#caption').html($(slideEvent.relatedTarget).data('caption'));
-      });
+  $(function(){
+    $('#gallery').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000
     });
+  });
   </script>
 <?php elseif($page == "contact"): ?>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
