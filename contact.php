@@ -1,6 +1,6 @@
 <?php
-$page = "contact";
-require_once("page_start.php");
+  $page = "contact";
+  require_once("page_start.php");
 ?>
 
 <div class="col-md-10 page-content text-center">
@@ -38,5 +38,5 @@ require_once("page_start.php");
 </div>
 
 <?php
-require_once("page_end.php");
+  require_once("page_end.php");
 ?>

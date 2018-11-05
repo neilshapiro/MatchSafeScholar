@@ -1,6 +1,6 @@
 <?php
-$page = "gallery";
-require_once("page_start.php");
+  $page = "gallery";
+  require_once("page_start.php");
 ?>
 
 <div class="col-md-10 page-content">
@@ -14,15 +14,19 @@ require_once("page_start.php");
           <li data-target="#gallery" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-caption="<h5>Picture 1</h5><p>Some brief details describing Picture 1.</p>">
-            <img class="d-block w-100" src="img/gallery/0.jpg" alt="Slide 0">
-          </div>
-          <div class="carousel-item" data-caption="<h5>Picture 2</h5><p>Some brief details describing Picture 2.</p>">
-            <img class="d-block w-100" src="img/gallery/1.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item" data-caption="<h5>Picture 3</h5><p>Some brief details describing Picture 3.</p>">
-            <img class="d-block w-100" src="img/gallery/2.jpg" alt="Third slide">
-          </div>
+
+          <?php
+            $captions = json_decode(file_get_contents("gallery_captions.json"));
+            $active = ' active';
+            foreach ($captions as $num => $caption) {
+              echo "<div class='carousel-item$active' data-caption='$caption'>
+                      <img class='d-block w-100' src='img/gallery/$num.png' alt='Slide $num'>
+                    </div>";
+              if ($active !== '') {
+                $active = '';
+              }
+            }
+          ?>
         </div>
         <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -35,12 +39,11 @@ require_once("page_start.php");
       </div>
     </div>
   </div>
-  <div id="caption" class="text-center" style="margin-top: 30px;">
-    <h5>Picture 1</h5>
-    <p>Some brief details describing Picture 1.</p>
-  </div>
+  <p id="caption" class="text-center" style="margin-top: 30px;">
+    Sample text for caption 1
+  </p>
 </div>
 
 <?php
-require_once("page_end.php");
+  require_once("page_end.php");
 ?>

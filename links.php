@@ -1,6 +1,6 @@
 <?php
-$page = "links";
-require_once("page_start.php");
+  $page = "links";
+  require_once("page_start.php");
 ?>
 
 <div id="links" class="col-md-10 page-content text-center">
@@ -15,5 +15,5 @@ require_once("page_start.php");
 </div>
 
 <?php
-require_once("page_end.php");
+  require_once("page_end.php");
 ?>

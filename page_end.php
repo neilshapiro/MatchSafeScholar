@@ -7,11 +7,11 @@
 
 <?php if($page == "gallery"): ?>
   <script>
-  $(function(){
-    $("#gallery").on('slide.bs.carousel', function(slideEvent) {
-      $('#caption').html($(slideEvent.relatedTarget).data('caption'));
+    $(function(){
+      $("#gallery").on('slide.bs.carousel', function(slideEvent) {
+        $('#caption').html($(slideEvent.relatedTarget).data('caption'));
+      });
     });
-  });
   </script>
 <?php elseif($page == "contact"): ?>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -21,13 +21,13 @@
 <?php elseif($page == "works"): ?>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script>
-  $(function(){
-    $('.book-slider').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1
+    $(function(){
+      $('.book-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      });
     });
-  });
   </script>
 <?php endif; ?>
 
