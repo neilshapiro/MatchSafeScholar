@@ -6,12 +6,12 @@
 <div id="links" class="col-md-10 page-content text-center">
   <h2 class="text-center page-content-title">LINKS</h2>
   <p style="margin-bottom:20px;">Some useful links for researchers and collectors.<p>
-  <p>my example link 1</p>
-  <a href="#">https://code.jquery.com/jquery-3.3.1.min.js</a>
-  <p>my example link 2</p>
-  <a href="#">https://code.jquery.com/jquery-3.3.1.min.js</a>
-  <p>my example link 3</p>
-  <a href="#">https://code.jquery.com/jquery-3.3.1.min.js</a>
+  <p><b>International Match Safe Association</b></p>
+  <a target="_blank" href="http://www.matchsafe.org">http://www.matchsafe.org</a>
+  <p>Jeff Herman Silversmith</p>
+  <a target="_blank" href="http://www.hermansilver.com/">http://www.hermansilver.com/</a>
+  <p>Rathkamp Matchcover Society</p>
+  <a target="_blank" href="http://www.matchcover.org/">http://www.matchcover.org/</a>
 </div>
 
 <?php
