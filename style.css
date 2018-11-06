@@ -11,11 +11,16 @@ body {
 .header p {
   margin: 0;
 }
+#site-title, #site-title:link, #site-title:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
 .site-content {
   margin-top: 40px;
 }
 .page-content {
   border-style: solid;
+  border-width: thin;
   border-color: lightgray;
   padding: 30px;
   background-color: white;
@@ -29,6 +34,11 @@ body {
 nav .btn {
   margin-bottom: 25px;
   background-color:white;
+  border-color: lightgray;
+  border-radius: 0;
+}
+.slick-slide {
+  overflow:hidden;
 }
 #gallery .caption {
   background-color: rgba(0, 0, 0, 0.4);
@@ -43,6 +53,21 @@ nav .btn {
 .book-slider .card {
   margin: 0 10px;
   padding: 20px 0;
+  height: 100%;
+}
+.card-title {
+  font-weight: bold;
+}
+.card-text {
+  font-size: small;
+}
+.card img {
+  height: 120px;
+  max-height: 120px;
+}
+#displayCaption {
+  font-style: italic;
+  padding-top: 15px;
 }
 #links p {
   margin-bottom: 5px;
@@ -50,6 +75,10 @@ nav .btn {
 #links a {
   display: block;
   margin-bottom: 20px;
+}
+table {
+  /*position:relative;
+  left: 3em;*/
 }
 table td {
   vertical-align: top;
