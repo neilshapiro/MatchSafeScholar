@@ -21,7 +21,7 @@
     <div class="container">
       <div class="row text-center header">
         <div class="col-md-12">
-          <h1>MATCH SAFE SCHOLAR</h1>
+          <a id="site-title" href="index.php"><h1>MATCH SAFE SCHOLAR</h1></a>
           <p>A website maintained by Neil Shapiro to study, evaluate, appraise, and enjoy match safes, vestas, and match holders.</p>
         </div>
       </div>
@@ -34,5 +34,10 @@
             <a class="btn btn-outline-secondary" href="services.php">Services</a>
             <a class="btn btn-outline-secondary" href="links.php">Links</a>
             <a class="btn btn-outline-secondary" href="contact.php">Contact</a>
+            <a id="boxes" class="btn btn-outline-secondary" href="#" style="margin-top: 20px;">NoButtonBoxes</a>
+            <a id="bigbox" class="btn btn-outline-secondary" href="#">NoBigBox</a>
+            <a id="white" class="btn btn-outline-secondary" href="#">White</a>
+            <a id="purple" class="btn btn-outline-secondary" href="#">Purple</a>
+            <a id="reset" class="btn btn-outline-secondary" href="#">Reset</a>
           </nav>
         </div>
