@@ -6,7 +6,7 @@ body {
 }
 .header {
   border-bottom-style: solid;
-  padding: 40px 0px;
+  padding: 40px 0;
 }
 .header p {
   margin: 0;
@@ -24,21 +24,21 @@ body {
   margin-bottom: 30px;
 }
 #site-nav {
-  padding-left: 0px;
+  padding-left: 0;
 }
 nav .btn {
   margin-bottom: 25px;
   background-color:white;
 }
 #gallery .caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   position: relative;
-  top: 0px;
-  padding: 20px 0px;
+  top: 0;
+  padding: 20px 0;
 }
-.article-content ul {
-  list-style: none;
+.article-content {
+  padding: 8px 0;
 }
 .book-slider .card {
   margin: 0 10px;

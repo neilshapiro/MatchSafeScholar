@@ -9,29 +9,22 @@
   <p class="text-center" style="margin-bottom:30px;"><small><strong>ALL RIGHTS FOR COMMERCIAL USE ARE RESERVED. PERMISSION FOR NON-COMMERCIAL USE MAY BE OBTAINED BY CONTACTING NEIL SHAPIRO</strong></small></p>
   <hr>
   <h2 class="text-center page-content-title">ARTICLES</h2>
-  <div class="row article-content">
-    <div class="col-md-4">
-      <ul>
-        <li><a href="#">article 1 title goes here</a></li>
-        <li><a href="#">article 4 title goes here</a></li>
-        <li><a href="#">article 7 title goes here</a></li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul>
-        <li><a href="#">article 2 title goes here</a></li>
-        <li><a href="#">article 5 title goes here</a></li>
-        <li><a href="#">article 8 title goes here</a></li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul>
-        <li><a href="#">article 3 title goes here</a></li>
-        <li><a href="#">article 6 title goes here</a></li>
-        <li><a href="#">article 9 title goes here</a></li>
-      </ul>
-    </div>
-  </div>
+
+    <?php
+      $articles = json_decode(file_get_contents("articles.json"));
+      for ($x = 0; $x < count($articles); $x += 3) {
+        echo '<div class="row text-center article-content">';
+        for ($y = $x; $y < $x+3; $y++) {
+          if ($y >= count($articles))
+            break;
+          echo '<div class="col-md-4">
+                  <a target="_blank" href="articles/' . $articles[$y]->link . '">' . $articles[$y]->title . '</a>
+                </div>';
+        }
+        echo '</div>';
+      }
+    ?>
+
   <hr>
   <h2 class="text-center page-content-title">BOOKS</h2>
   <div class="book-slider">
