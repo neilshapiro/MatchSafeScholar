@@ -13,8 +13,8 @@
           <i data-feather="home"></i>
         </td>
         <td>
-          1234 Alphabet Avenue<br>
-          The Second Suite
+          128 Lancaster Street<br>
+          Albany, New York 12210-1904, USA.
         </td>
       </tr>
       <tr>
@@ -22,7 +22,7 @@
           <i data-feather="phone"></i>
         </td>
         <td>
-          (XXX) XXX - XXXX<br>
+          (518) 436-9522<br>
         </td>
       </tr>
       <tr>
