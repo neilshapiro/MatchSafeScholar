@@ -23,6 +23,7 @@
       $("nav .btn").css("border-style", "solid");
       $(".page-content").css("border-style", "solid");
       $("body").css("background-color", "#fafafa");
+      $('#gallery .caption').css("top", "0");
     });
   });
 </script>
@@ -31,6 +32,9 @@
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script>
   $(function(){
+    $('#caption').click(function(){
+      $('#gallery .caption').css("top", "-60px");
+    });
     $('#gallery').slick({
       infinite: true,
       slidesToShow: 1,
