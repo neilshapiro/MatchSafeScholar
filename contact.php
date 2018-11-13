@@ -10,15 +10,6 @@
     <table class="mx-auto">
       <tr>
         <td>
-          <i data-feather="home"></i>
-        </td>
-        <td>
-          128 Lancaster Street<br>
-          Albany, New York 12210-1904, USA.
-        </td>
-      </tr>
-      <tr>
-        <td>
           <i data-feather="phone"></i>
         </td>
         <td>
