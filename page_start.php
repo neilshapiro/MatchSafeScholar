@@ -34,15 +34,5 @@
             <a class="btn btn-outline-secondary" href="services.php">Services</a>
             <a class="btn btn-outline-secondary" href="links.php">Links</a>
             <a class="btn btn-outline-secondary" href="contact.php">Contact</a>
-            <?php
-              if ($page == 'gallery') {
-                echo '<a id="caption" class="btn btn-outline-secondary" href="#">CaptionInside</a>';
-              }
-            ?>
-            <a id="boxes" class="btn btn-outline-secondary" href="#">NoButtonBoxes</a>
-            <a id="bigbox" class="btn btn-outline-secondary" href="#">NoBigBox</a>
-            <a id="white" class="btn btn-outline-secondary" href="#">White</a>
-            <a id="purple" class="btn btn-outline-secondary" href="#">Purple</a>
-            <a id="reset" class="btn btn-outline-secondary" href="#">Reset</a>
           </nav>
         </div>
