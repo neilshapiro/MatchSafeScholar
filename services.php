@@ -6,7 +6,7 @@
 <div class="col-md-10 page-content">
   <h2 class="text-center page-content-title">SERVICES</h2>
   <p class="text-center" style="margin-bottom:30px;">Neil Shapiro will be pleased to offer free appraisals for condition, rarity and market value when appropriate.<br>
-    <b><a href="mailto:nshapir1@nycap.rr.com">Contact me</a> if I can help you. If I can't help I will refer you to someone who can.</b></p>
+    <b><a href="contact.php">Contact me</a> if I can help you. If I can't help I will refer you to someone who can.</b></p>
   <hr>
   <div class="row">
     <div class="col-md-5">
