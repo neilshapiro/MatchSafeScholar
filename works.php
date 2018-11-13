@@ -12,9 +12,6 @@
 
     <?php
       $articles = json_decode(file_get_contents("articles.json"));
-      usort($articles, function($a, $b){          
-        return $a->title <=> $b->title;
-      });
       for ($x = 0; $x < count($articles); $x += 3) {
         echo '<div class="row text-center article-content">';
         for ($y = $x; $y < $x+3; $y++) {
