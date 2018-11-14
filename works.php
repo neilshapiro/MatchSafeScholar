@@ -54,6 +54,7 @@
   <div class="row text-center" style="margin-bottom: 20px;">
     <div class="col-md-6">
       <a target="_blank" href="reviews/EXCEPTIONAL MATCH SAFES BOOK REVIEW.pdf">Exceptional Match Safes Book Review</a>
+      <p><i>Silver Magazine</i></p>
     </div>
     <div class="col-md-6">
       <a target="_blank" href="reviews/GORHAM MATCH SAFES BOOK REVIEW.pdf">Gorham Match Safes Book Review</a>
