@@ -14,7 +14,7 @@
           $captions = json_decode(file_get_contents("gallery_captions.json"));
           foreach ($captions as $num => $caption) {
             echo "<div class=''>
-                    <img class='img-fluid mx-auto' src='img/gallery/$num.png' alt='Slide $num'>
+                    <img class='img-fluid mx-auto' src='img/gallery/resized/$num.png' alt='Slide $num'>
                     <div class='caption'>
                       $caption
                     </div>
