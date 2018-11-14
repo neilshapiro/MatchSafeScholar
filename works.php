@@ -38,8 +38,13 @@
                     <h6 class="card-title">' . $books[$x]->title . '</h6>
                     <p class="card-text">' . $books[$x]->desc . '</p>
                   </div>
-                  <a target="_blank" href="books/' . $books[$x]->link . '" class="btn btn-primary">Read More</a>
-              </div>';
+                  <a target="_blank" href="';
+        if ($books[$x]->link === "#") {
+          echo '#" onclick="return false;"';
+        } else {
+          echo 'books/' . $books[$x]->link . '"';
+        }
+        echo 'class="btn btn-primary">Read More</a></div>';
       }
     ?>
 
