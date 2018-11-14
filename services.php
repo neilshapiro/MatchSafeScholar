@@ -18,8 +18,8 @@
     </div>
   </div>
   <div class="row" style="margin-top:30px;">
-    <div class="col-md-5">
-      <img class="img-fluid" src="img/exhibition/1.jpg">
+    <div class="col-md-5 text-center">
+      <img class="img-fluid" src="img/icons/appraisals.png" style="max-height: 200px;">
     </div>
     <div class="col-md-7">
       <h2>APPRAISALS</h2>
