@@ -9,8 +9,8 @@
     <b><a href="contact.php">Contact me</a> if I can help you. If I can't help I will refer you to someone who can.</b></p>
   <hr>
   <div class="row">
-    <div class="col-md-5">
-      <img class="img-fluid" src="img/exhibition/0.jpg">
+    <div class="col-md-5 text-center">
+      <img class="img-fluid" src="img/icons/research2.png" style="max-height: 200px;">
     </div>
     <div class="col-md-7">
       <h2>RESEARCH</h2>
