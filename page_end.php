@@ -1,5 +1,6 @@
 </div>
 </div>
+</div>
 
 <script src="js/jquery-popper-bootstrap.js"></script>
 

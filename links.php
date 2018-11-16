@@ -3,8 +3,8 @@
   require_once("page_start.php");
 ?>
 
-<div id="links" class="col-md-10 page-content text-center">
-  <h2 class="text-center page-content-title">LINKS</h2>
+<div id="links">
+  <h2 class="page-content-title">LINKS</h2>
   <p style="margin-bottom:20px;">Some useful links for researchers and collectors.<p>
   <p><b>International Match Safe Association</b></p>
   <a target="_blank" href="http://www.matchsafe.org">http://www.matchsafe.org</a>
