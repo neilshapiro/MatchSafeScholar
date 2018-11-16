@@ -30,7 +30,21 @@
       $('.book-slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 523,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
       }).on('setPosition', function (event, slick) {
 	      slick.$slides.css('height', slick.$slideTrack.height() + 'px');
       });

@@ -87,3 +87,8 @@ table td {
   width: 1100px;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  #gallery img {
+    max-height: 300px;
+  }
+}

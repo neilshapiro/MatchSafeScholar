@@ -11,7 +11,7 @@
   <div class="col-md-3">
     <img class="img-fluid" src="img/icons/research2.png" style="max-height: 100px;">
   </div>
-  <div class="col-md-9 text-left">
+  <div class="col-md-9 text-md-left">
     <h2>RESEARCH</h2>
     <p>I can and sometimes will do a careful investigation about your match safe, vesta, and match holder. This includes trying to ascertain the maker, materials, period of manufacture, country of origin, and authenticity.</p>
   </div>
@@ -20,7 +20,7 @@
   <div class="col-md-3">
     <img class="img-fluid" src="img/icons/appraisals.png" style="max-height: 100px;">
   </div>
-  <div class="col-md-9 text-left">
+  <div class="col-md-9 text-md-left">
     <h2>APPRAISALS</h2>
     <p>I only appraise match safes, vestas and match holders. Nothing else. I will estimate the quality, nature, and sometimes the value, of your match safes, vestas, and match holders.</p>
   </div>

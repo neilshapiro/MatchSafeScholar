@@ -27,13 +27,13 @@
       </div>
       <div class="row site-content">
         <div id="site-nav" class="col-md-2">
-          <nav class="nav flex-column">
+          <nav class="nav flex-md-column">
             <a class="btn btn-outline-secondary" href="index.php">Gallery</a>
             <a  style="white-space: normal;" class="btn btn-outline-secondary" href="works.php">Published Works</a>
             <a  style="white-space: normal;" class="btn btn-outline-secondary" href="exhibition.php">Museum Exhibition</a>
-            <a class="btn btn-outline-secondary" href="services.php">Services</a>
+            <a style="display: inline-block;" class="btn btn-outline-secondary" href="services.php">Services</a>
             <a class="btn btn-outline-secondary" href="links.php">Links</a>
             <a class="btn btn-outline-secondary" href="contact.php">Contact</a>
           </nav>
         </div>
-        <div class="col-10 page-content text-center">
+        <div class="col-md-10 page-content text-center">

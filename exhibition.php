@@ -12,30 +12,30 @@
 </div>
 <p id="displayCaption">Photo <span id="displayNum">1</span> of 8<p>
 <div class="row" style="margin-top: 30px;">
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/0.jpg" data-num="1">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/1.jpg" data-num="2">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/2.jpg" data-num="3">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/3.jpg" data-num="4">
   </div>
 </div>
 <div class="row" style="margin-top: 30px;">
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/4.jpg" data-num="5">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/5.jpg" data-num="6">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/6.jpg" data-num="7">
   </div>
-  <div class="col-md-3">
+  <div class="col-3">
     <img class="img-fluid" src="img/exhibition/7.jpg" data-num="8">
   </div>
 </div>
