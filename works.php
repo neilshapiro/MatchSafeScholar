@@ -36,14 +36,12 @@
                 <div class="card-body">
                   <h6 class="card-title">' . $books[$x]->title . '</h6>
                   <p class="card-text">' . $books[$x]->desc . '</p>
-                </div>
-                <a target="_blank" href="';
-      if ($books[$x]->link === "#") {
-        echo '#" onclick="return false;"';
-      } else {
-        echo 'books/' . $books[$x]->link . '"';
+                </div>';
+
+      if ($books[$x]->link !== "#") {
+        echo '<a target="_blank" href="books/' . $books[$x]->link . '" class="btn btn-primary">Read More</a>';
       }
-      echo 'class="btn btn-primary">Read More</a></div>';
+      echo '</div>';
     }
   ?>
 
@@ -57,6 +55,7 @@
   </div>
   <div class="col-md-6">
     <a target="_blank" href="reviews/GORHAM MATCH SAFES BOOK REVIEW.pdf">Gorham Match Safes Book Review</a>
+    <p><i>Silver Magazine</i></p>
   </div>
 </div>
 
