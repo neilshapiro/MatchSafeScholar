@@ -4,7 +4,7 @@
 ?>
 
 <h2 class="page-content-title">MUSEUM EXHIBITION</h2>
-<p style="margin-bottom:30px;">These are images from an exhibition of match safes, and vestas, at the Delaware Art Museum, entitled, <b>PORTABLE FIRE</b>, 13 September 2014 – 15 March 2015. A catalog from this exhibition is available for purchase.</p>
+<p style="margin-bottom:30px;">These are images from an exhibition of match safes, and vestas, at the Delaware Art Museum, entitled, <b>PORTABLE FIRE</b>, 13&nbsp;September 2014 – 15&nbsp;March 2015. A catalog from this exhibition is available for purchase.</p>
 <div class="row">
   <div class="col-md-12">
     <img id="display" class="img-fluid" src="img/exhibition/0.jpg">
