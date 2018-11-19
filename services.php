@@ -9,7 +9,7 @@
 <hr>
 <div class="row">
   <div class="col-md-3">
-    <img class="img-fluid" src="img/icons/research2.png" style="max-height: 100px;">
+    <img class="img-fluid" src="img/icons/research.png" style="max-height: 100px;">
   </div>
   <div class="col-md-9 text-md-left">
     <h2>RESEARCH</h2>

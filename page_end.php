@@ -53,12 +53,7 @@
 <?php elseif($page == "exhibition"): ?>
   <script>
     $(function(){
-      /*
-      $('img:not(#display)').hover(function(event) {
-        $('#display').attr('src', $(event.target).attr('src'));
-      });
-      */
-      $('img:not(#display)').click(function(event) {
+        $('img:not(#display)').click(function(event) {
         $('#display').attr('src', $(event.target).attr('src'));
         $('#displayNum').text($(event.target).data("num"));
       });
