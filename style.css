@@ -50,9 +50,13 @@ nav .btn {
 }
 .articles-section h6 {
   font-weight: bold;
+  margin-bottom: 15px;
+}
+.articles-section-title {
+  margin-bottom: 10px;
 }
 .articles-header {
-  margin-top: 40px;
+  margin-bottom: 15px;
 }
 .book-slider .card {
   margin: 0 10px;
@@ -97,11 +101,14 @@ table td {
   margin: 0 auto;
 }
 .articles-section {
-  padding-left: 10px;
-  padding-top: 10px;
+  padding: 20px 10px;
   border-style: solid;
   border-width: thin;
   border-color: lightgray;
+  margin-bottom: 40px;
+}
+.no-padding {
+  margin-bottom: 0;
 }
 @media (max-width: 768px) {
   #gallery img {
