@@ -98,9 +98,15 @@
   <h3 class="articles-header">Global Match Safes</h3>
   <div class="articles-section">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <ul class="articles no-padding">
           <li><a target="_blank" href="articles/Match Safes around the World.pdf">Match Safes around the World</a></li>
+          <li><a target="_blank" href="articles/Two Norwegian enamel match safes both made for export by David.pdf">Consideration of Two Norwegian Match Safes</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="articles no-padding">
+          <li><a target="_blank" href="articles/Thai_safe_essay.pdf">Thai Match Safe</a></li>
         </ul>
       </div>
     </div>
@@ -114,6 +120,8 @@
           <li><a target="_blank" href="articles/Animaliers_1_ essay.pdf">Animaliers and Match Holders</a></li>
           <li><a target="_blank" href="articles/Essay on Go-To_Bed.pdf">"GO-TO-BED" OR SIMPLY MATCH HOLDER?</a></li>
           <li><a target="_blank" href="articles/Friar match holder essay.pdf">A Clue to the Maker or Origin of the Friar/Monk Match Holder</a></li>
+          <li><a target="_blank" href="articles/Essay_barrell_bollard.pdf">Bollard or Barrel?</a></li>
+          <li><a target="_blank" href="articles/THREE QUIRKY ADVERTISING MATCH HOLDERS.pdf">Three Quirky Advertising Match Holders</a></li>
         </ul>
       </div>
       <div class="col-md-6">
@@ -121,6 +129,8 @@
           <li><a target="_blank" href="articles/Joseph Glanz_text_essay.pdf">Joseph Glanz’s Match Holders</a></li>
           <li><a target="_blank" href="articles/Essay_2_Zimmermanns9.15.17.pdf">A Tale of Two Match Holders</a></li>
           <li><a target="_blank" href="articles/Reconsidering a Match Holder.pdf">Reconsidering a Match Holder</a></li>
+          <li><a target="_blank" href="articles/Match Holder Originals or Reproductions2.pdf">Match Holder Originals or Reproductions</a></li>
+          <li><a target="_blank" href="articles/Animals making music.pdf">A Bear Playing an Instrument Match Holder</a></li>
         </ul>
       </div>
     </div>
