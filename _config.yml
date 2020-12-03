@@ -1,5 +1,8 @@
 title: Match Safe Scholar
 description: A website maintained by Neil Shapiro to study, evaluate, appraise, and enjoy match safes, vestas, and match holders.
+email: nshapir1@nycap.rr.com
+phone: (518) 436-9522
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:basename

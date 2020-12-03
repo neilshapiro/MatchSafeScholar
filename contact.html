@@ -1,0 +1,26 @@
+---
+layout: default
+title: Contact
+---
+<h2 class="text-center page-content-title">{{ page.title | upcase }}</h2>
+<h3 style="margin-bottom:20px;">Neil Shapiro</h3>
+<address>
+  <table class="mx-auto">
+    <tr>
+      <td>
+        <i data-feather="phone"></i>
+      </td>
+      <td>
+        {{ site.phone }}<br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <i data-feather="mail"></i>
+      </td>
+      <td>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </td>
+    </tr>
+  </table>
+</address>
