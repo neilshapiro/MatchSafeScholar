@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <div class="container">
+    <div class="row text-center header">
+      <div class="col-md-12">
+        <a id="site-title" href="index.php">
+          <h1>{{ site.title | upcase }}</h1>
+        </a>
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+    <div class="row site-content">
+      <div id="site-nav" class="col-md-2">
+        {% include navigation.html %}
+      </div>
+      <div class="col-md-10 page-content text-center">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery-popper-bootstrap.js"></script>
+  {% unless page.title == 'Services' or page.title == 'Links' %}
+  {% include {{page.title}}-scripts.html %}
+  {% endunless %}
+</body>
+
+</html>
