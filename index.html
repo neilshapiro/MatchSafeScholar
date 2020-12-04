@@ -1,0 +1,20 @@
+---
+layout: default
+title: Gallery
+---
+<h2 class="page-content-title">GALLERY</h2>
+<h6 class="page-content-title">Selected match safes and match holders from worldwide collections.</h6>
+<div class="row">
+  <div class="col-md-12">
+    <div id="gallery">
+      {% for item in site.data.gallery %}
+        <div>
+          <img class='img-fluid mx-auto' src='assets/img/gallery/{{ item.fileNum }}.png' alt='Slide {{ item.fileNum }}'>
+          <div class='caption'>
+            {{ item.caption }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
