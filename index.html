@@ -9,7 +9,7 @@ title: Gallery
     <div id="gallery">
       {% for item in site.data.gallery %}
         <div>
-          <img class='img-fluid mx-auto' src='assets/images/gallery/{{ item.fileNum }}.png' alt='Slide {{ item.fileNum }}'>
+          <img class='img-fluid mx-auto' src='/assets/images/gallery/{{ item.fileNum }}.png' alt='Slide {{ item.fileNum }}'>
           <div class='caption'>
             {{ item.caption }}
           </div>

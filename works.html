@@ -150,13 +150,13 @@ title: Works
 <div class="book-slider">
   {% for book in site.data.books %}
     <div class="card slide">
-      <img class="img-fluid mx-auto" src="assets/images/books/{{ book.img }}" alt="Book image {{ forloop.index }}">
+      <img class="img-fluid mx-auto" src="/assets/images/books/{{ book.img }}" alt="Book image {{ forloop.index }}">
       <div class="card-body">
         <h6 class="card-title">{{ book.title }}</h6>
         <p class="card-text">{{ book.desc }}</p>
       </div>
       {% if book.link != "#" %}
-        <a target="_blank" href="assets/pdfs/books/{{ book.link }}" class="btn btn-primary">Read More</a>
+        <a target="_blank" href="/assets/pdfs/books/{{ book.link }}" class="btn btn-primary">Read More</a>
       {% endif %}
     </div>
   {% endfor %}
@@ -165,11 +165,11 @@ title: Works
 <h2 class="page-content-title">BOOK REVIEWS</h2>
 <div class="row" style="margin-bottom: 20px;">
   <div class="col-md-6">
-    <a target="_blank" href="assets/pdfs/reviews/EXCEPTIONAL MATCH SAFES BOOK REVIEW.pdf">Exceptional Match Safes Book Review</a>
+    <a target="_blank" href="/assets/pdfs/reviews/EXCEPTIONAL MATCH SAFES BOOK REVIEW.pdf">Exceptional Match Safes Book Review</a>
     <p><i>Silver Magazine</i></p>
   </div>
   <div class="col-md-6">
-    <a target="_blank" href="assets/pdfs/reviews/GORHAM MATCH SAFES BOOK REVIEW.pdf">Gorham Match Safes Book Review</a>
+    <a target="_blank" href="/assets/pdfs/reviews/GORHAM MATCH SAFES BOOK REVIEW.pdf">Gorham Match Safes Book Review</a>
     <p><i>Silver Magazine</i></p>
   </div>
 </div>
