@@ -1,6 +1,6 @@
 {
     "american": {
-        "Gorham": [
+        "gorham": [
             {
                 "title": "A Brief History of Gorham Match Safes",
                 "path": "articles/A BRIEF HISTORY OF GORHAM MATCH SAFES.pdf"
@@ -34,7 +34,7 @@
                 "path": "articles/GORHAMs unique inlay patents.pdf"
             }
         ],
-        "Tiffany": [
+        "tiffany": [
             {
                 "title": "A Tiffany Match Safe Story",
                 "path": "articles/A Tiffany Match  Safe Story.pdf"
@@ -68,7 +68,7 @@
         ]    
     },
     "european": {
-        "United Kingdom": [
+        "uk": [
             {
                 "title": "Mr. Jorrock's Vesta Cases",
                 "path": "articles/Mr.Jorrocks vesta cases.pdf"
@@ -82,13 +82,13 @@
                 "path": "articles/Cost of One Matchsafe.pdf"
             }
         ],
-        "Russia": [
+        "russia": [
             {
                 "title": "Russian Match Holders",
                 "path": "articles/RUSSIAN MATCH HOLDERS.pdf"
             }
         ],
-        "France": [
+        "france": [
             {
                 "title": "A Cartier Match Safe",
                 "path": "articles/Cartier Essay.pdf"
@@ -102,7 +102,7 @@
                 "path": "articles/Lacademie des beaux arts.pdf"
             }
         ],
-        "Spain": [
+        "spain": [
             {
                 "title": "Spanish and Japanese Damascene Match Safes",
                 "path": "articles/Damascene Match Safes1_9.13.18.pdf"
