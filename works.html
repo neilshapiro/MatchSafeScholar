@@ -1,0 +1,175 @@
+---
+layout: default
+title: Works
+---
+<h2 class="page-content-title">PUBLISHED WORKS</h2>
+<p>
+  Books and articles by Neil Shapiro. The articles are available to read on this website and the books may be purchased
+  directly from Neil Shapiro or from the International Match Safe Association 
+  (<a target="_blank" href="http://www.matchsafe.org">http://www.matchsafe.org</a>).
+</p>
+<p style="margin-bottom:30px;">
+  <small>
+    <strong>
+      ALL RIGHTS FOR COMMERCIAL USE ARE RESERVED. PERMISSION FOR NON-COMMERCIAL USE MAY BE OBTAINED BY CONTACTING NEIL SHAPIRO
+    </strong>
+  </small>
+</p>
+<hr>
+<h2 class="page-content-title">ARTICLES</h2>
+
+<h3 class="articles-header">American Match Safes</h3>
+<div class="articles-section text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <h6>Gorham</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.gorham %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h6>Tiffany</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.tiffany %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+      <h6>Other</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.other %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="articles-header">European Match Safes (Vestas)</h3>
+<div class="articles-section text-center">
+  <div class="row">
+    <div class="col-md-6">
+      <h6>United Kingdom</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.uk %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+      <h6 style="margin-top:20px;">Russia</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.russia %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h6>France</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.france %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+      <h6 style="margin-top:20px;">Spain</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.american.spain %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="articles-header">Japanese Match Safes</h3>
+<div class="articles-section">
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% assign split = site.data.articles.japanese.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.japanese limit:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% for article in site.data.articles.japanese offset:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="articles-header">Global Match Safes</h3>
+<div class="articles-section">
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% assign split = site.data.articles.global.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.global limit:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% for article in site.data.articles.global offset:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h3 class="articles-header">Match Holders</h3>
+<div class="articles-section">
+  <div class="row articles-row">
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% assign split = site.data.articles.holders.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.holders limit:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+    </div>
+    <div class="col-md-6">
+      <ul class="articles no-padding">
+        {% for article in site.data.articles.holders offset:split %}
+          {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr>
+<h2 class="page-content-title">BOOKS</h2>
+<div class="book-slider">
+  {% for book in site.data.books %}
+    <div class="card slide">
+      <img class="img-fluid mx-auto" src="assets/images/books/{{ book.img }}" alt="Book image {{ forloop.index }}">
+      <div class="card-body">
+        <h6 class="card-title">{{ book.title }}</h6>
+        <p class="card-text">{{ book.desc }}</p>
+      </div>
+      {% if book.link != "#" %}
+        <a target="_blank" href="assets/pdfs/books/{{ book.link }}" class="btn btn-primary">Read More</a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+<hr>
+<h2 class="page-content-title">BOOK REVIEWS</h2>
+<div class="row" style="margin-bottom: 20px;">
+  <div class="col-md-6">
+    <a target="_blank" href="assets/pdfs/reviews/EXCEPTIONAL MATCH SAFES BOOK REVIEW.pdf">Exceptional Match Safes Book Review</a>
+    <p><i>Silver Magazine</i></p>
+  </div>
+  <div class="col-md-6">
+    <a target="_blank" href="assets/pdfs/reviews/GORHAM MATCH SAFES BOOK REVIEW.pdf">Gorham Match Safes Book Review</a>
+    <p><i>Silver Magazine</i></p>
+  </div>
+</div>
