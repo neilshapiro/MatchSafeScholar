@@ -86,6 +86,9 @@ body {
   font-style: italic;
   padding-top: 15px;
 }
+.thumbnail:hover {
+  cursor: pointer;
+}
 #links p {
   margin-bottom: 5px;
 }
