@@ -1,0 +1,12 @@
+- name: Gallery
+  link: /
+- name: Published Works
+  link: /works
+- name: Museum Exhibition
+  link: /exhibition
+- name: Services
+  link: /services
+- name: Links
+  link: /links
+- name: Contact
+  link: /contact

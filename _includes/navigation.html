@@ -1,22 +1,9 @@
 <nav>
   <ul class="nav flex-md-column">
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/">Gallery</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/works">Published Works</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/exhibition">Museum Exhibition</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/services">Services</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/links">Links</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link btn btn-outline-secondary" href="/contact">Contact</a>
-    </li>
+    {% for page in site.data.navigation %}
+      <li class="nav-item">
+        <a class="nav-link btn btn-outline-secondary" href="{{ page.link }}">{{ page.name }}</a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
