@@ -21,6 +21,7 @@
       ]
     }).on('setPosition', function (event, slick) {
       // resize slides to equal height
+      // reference: https://stackoverflow.com/questions/49028877/slick-carousel-force-slides-to-have-the-same-height
       // - first let slides take on their auto height (100%)
       slick.$slides.css('height', 'auto');
       // - resize each slide to the slideTrack's height (it will have the height of the tallest slide now)
