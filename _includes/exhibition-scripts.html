@@ -1,8 +1,8 @@
 <script>
     $(function () {
-      $('img:not(#display)').click(function (event) {
-        $('#display').attr('src', $(event.target).attr('src'));
-        $('#displayNum').text($(event.target).data("num"));
+      $('.thumbnail').click(function (event) {
+        $('#display').attr('src', '/assets/images/exhibition/'+$(event.target).data('num')+'.jpg');
+        $('#displayNum').text($(event.target).data('num'));
       });
     });
   </script>
