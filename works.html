@@ -154,10 +154,10 @@ title: Works
     <div class="card-body">
       <h6 class="card-title">{{ book.title }}</h6>
       <p class="card-text">{{ book.desc }}</p>
-    </div>
-    {% if book.link != "#" %}
-    <a target="_blank" href="/assets/pdfs/books/{{ book.link }}" class="btn btn-primary">Read More</a>
-    {% endif %}
+      {% if book.link != "#" %}
+      <a target="_blank" href="/assets/pdfs/books/{{ book.link }}" class="btn btn-primary">Read More</a>
+      {% endif %}
+    </div>    
   </div>
   {% endfor %}
 </div>
