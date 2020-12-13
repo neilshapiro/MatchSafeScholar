@@ -64,7 +64,7 @@ collections:
         file: "_data/articles/japanese.json"        
         fields: 
           - label: "Japanese articles"
-            name: "japanese"
+            name: "all"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
@@ -74,7 +74,7 @@ collections:
         file: "_data/articles/global.json"       
         fields: 
           - label: "Global articles"
-            name: "global"
+            name: "all"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
@@ -84,7 +84,7 @@ collections:
         file: "_data/articles/holders.json"     
         fields: 
           - label: "Match Holder articles"
-            name: "holder"
+            name: "all"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}

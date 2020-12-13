@@ -87,15 +87,15 @@ title: Works
   <div class="row">
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% assign split = site.data.articles.japanese.size | divided_by: 2.0 | ceil %}
-        {% for article in site.data.articles.japanese limit:split %}
+        {% assign split = site.data.articles.japanese.all.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.japanese.all limit:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
     </div>
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% for article in site.data.articles.japanese offset:split %}
+        {% for article in site.data.articles.japanese.all offset:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
@@ -109,15 +109,15 @@ title: Works
   <div class="row">
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% assign split = site.data.articles.global.size | divided_by: 2.0 | ceil %}
-        {% for article in site.data.articles.global limit:split %}
+        {% assign split = site.data.articles.global.all.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.global.all limit:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
     </div>
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% for article in site.data.articles.global offset:split %}
+        {% for article in site.data.articles.global.all offset:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
@@ -130,14 +130,14 @@ title: Works
   <div class="row articles-row">
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% assign split = site.data.articles.holders.size | divided_by: 2.0 | ceil %}
-        {% for article in site.data.articles.holders limit:split %}
+        {% assign split = site.data.articles.holders.all.size | divided_by: 2.0 | ceil %}
+        {% for article in site.data.articles.holders.all limit:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
     </div>
     <div class="col-md-6">
       <ul class="articles no-padding">
-        {% for article in site.data.articles.holders offset:split %}
+        {% for article in site.data.articles.holders.all offset:split %}
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
