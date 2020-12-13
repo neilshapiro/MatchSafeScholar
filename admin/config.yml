@@ -11,81 +11,15 @@ collections:
     files:
       - label: "American Match Safes"
         name: "american_section"
-        file: "_data/articles.json"        
+        file: "_data/articletest.json"        
         fields: 
           - label: "Gorham articles"
             name: "gorham"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-          - label: "Tiffany articles"
-            name: "tiffany"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-          - label: "Other articles"
-            name: "other"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+            widget: "string"            
       - label: "European Match Safes (Vestas)"
         name: "european_section"
-        file: "_data/articles.json"        
+        file: "_data/articletest.json"        
         fields: 
           - label: "United Kingdom articles"
             name: "uk"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-          - label: "Russia articles"
-            name: "russia"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-          - label: "France articles"
-            name: "france"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-          - label: "Spain articles"
-            name: "spain"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-      - label: "Japanese Match Safes"
-        name: "japanese_section"
-        file: "_data/articles.json"        
-        fields: 
-          - label: "Japanese articles"
-            name: "japanese"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-      - label: "Global Match Safes"
-        name: "global_section"
-        file: "_data/articles.json"       
-        fields: 
-          - label: "Global articles"
-            name: "global"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
-      - label: "Match Holders"
-        name: "holder_section"
-        file: "_data/articles.json"     
-        fields: 
-          - label: "Match Holder articles"
-            name: "holder"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+            widget: "string"
