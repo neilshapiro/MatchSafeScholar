@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "assets/pdfs/articles"
+public_folder: "assets/pdfs/articles"
+
+collections:
+  - label: "Articles"
+    name: "articles"
+    files:
+      - label: "American Match Safes"
+        name: "american_section"
+        file: "_data/test.json"        
+        fields: 
+          - label: "Gorham articles"
+            name: "gorham"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "title", widget: "string"}
+              - {label: "File", name: "path", widget: "file"}
+          - label: "Other articles"
+            name: "other"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "title", widget: "string"}
+              - {label: "File", name: "path", widget: "file"}
