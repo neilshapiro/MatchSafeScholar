@@ -1,3 +1,4 @@
+_site/
+.jekyll-cache/
 backups/
 questions.txt
-_site/

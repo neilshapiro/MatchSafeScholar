@@ -2,7 +2,9 @@ source "https://rubygems.org"
 
 # Jekyll version for use with GitHub Pages
 # To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+#gem "github-pages", group: :jekyll_plugins
+
+gem "jekyll", "~> 4.1.1"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
