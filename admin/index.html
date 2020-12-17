@@ -36,20 +36,24 @@
             }
 
             return h('li', {}, 
-              h('a', {'href': path, 'target': '_blank'}, title)
+              h('a', {'href': path, 'target': 'pdfPreview'}, title)
             );
           });          
           
           return h('div', {},
-            h('h3', {}, header),
-            h('div', {'className': 'articles-section'}, 
-              h('ul', {}, 
-                formattedData.slice(0, split)
+            h('div', {'id': 'sitePreview'},
+              h('h3', {}, header),
+              h('div', {'className': 'articles-section'}, 
+                h('ul', {}, 
+                  formattedData.slice(0, split)
+                ),
+                h('ul', {}, 
+                  formattedData.slice(split)
+                )
               ),
-              h('ul', {}, 
-                formattedData.slice(split)
-              )
-            )
+            ),
+            h('h3', {'id':'pdfHeader'}, 'PDF Preview:'),
+            h('iframe', {'name': 'pdfPreview', 'id': 'pdfPreview', 'loading': 'lazy'})
           );        
         }
       });
