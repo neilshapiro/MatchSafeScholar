@@ -1,0 +1,39 @@
+body {
+  background-color: #fafafa;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+.frame-content {  
+  background-color: white;
+  max-width: 889px;
+  margin: 20px auto;
+  padding: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+h3 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin: 0px 0px 15px;
+}
+.articles-section {
+  display: flex;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 20px 10px;
+}
+.articles-section > ul {
+  flex: 50%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 6px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}

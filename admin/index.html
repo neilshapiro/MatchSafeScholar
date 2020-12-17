@@ -9,5 +9,54 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    function simplePreview(header) {
+      return createClass({
+        render: function() {
+
+          // 'all' is the name of the list widget that contains this section's articles
+          var articleList = this.props.widgetsFor('all');
+          var split = Math.ceil(articleList.size/2);
+          // var mediaPath = this.props.config.getIn(['public_folder']) + '/';          
+
+          // get title and path from each article's data and form it into html
+          var formattedData = articleList.map((article, index) => {
+            var title = article.getIn(['data', 'title']);
+            var path = article.getIn(['data', 'path']); // just returns the asset filename
+            var asset = this.props.getAsset(path);
+
+            // actual asset path is either in media library or in memory
+            if (asset.fileObj === undefined) {
+              // asset is in media library
+              // alternative: path = media_path + article.getIn(['data', 'path']);
+              path = '/' + asset.path;
+            } else {
+              // asset is in memory
+              path = asset.toString();
+            }
+
+            return h('li', {}, 
+              h('a', {'href': path, 'target': '_blank'}, title)
+            );
+          });          
+          
+          return h('div', {},
+            h('h3', {}, header),
+            h('div', {'className': 'articles-section'}, 
+              h('ul', {}, 
+                formattedData.slice(0, split)
+              ),
+              h('ul', {}, 
+                formattedData.slice(split)
+              )
+            )
+          );        
+        }
+      });
+    }
+
+    CMS.registerPreviewTemplate('japanese_section', simplePreview('Japanese Match Safes'));
+    CMS.registerPreviewStyle("/admin/preview-style.css");
+  </script>
 </body>
 </html>
