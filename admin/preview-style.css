@@ -1,6 +1,7 @@
 body {
   background-color: #fafafa;
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
   text-align: center;
 }
 #sitePreview {  
@@ -19,8 +20,10 @@ body {
   border-color: lightgray;
   padding: 20px 10px;
 }
-.articles-section > ul {
+.flex-item {
   flex: 50%;
+}
+.articles-section ul {  
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -38,10 +41,18 @@ h3 {
   font-size: 1.75rem;
   margin: 0px 0px 15px;
 }
+h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0px 0px 15px;
+}
 li {
   margin-bottom: 6px;
 }
 a {
   color: #007bff;
   text-decoration: none;
+}
+ul.space-bottom {
+  margin-bottom: 15px;
 }

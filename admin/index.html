@@ -53,11 +53,46 @@
           h('div', {'id': 'sitePreview'},
             h('h3', {}, this.props.entry.getIn(['label'])),
             h('div', {'className': 'articles-section'}, 
-              h('ul', {}, 
-                formattedData.slice(0, split)
+              h('div', {'className': 'flex-item'}, 
+                h('ul', {}, formattedData.slice(0, split))
               ),
-              h('ul', {}, 
-                formattedData.slice(split)
+              h('div', {'className': 'flex-item'}, 
+                h('ul', {}, formattedData.slice(split))
+              )
+            ),
+          ),
+          h('h3', {'id': 'pdfHeader'}, 'PDF Preview:'),
+          h('iframe', {'name': 'pdfPreview', 'id': 'pdfPreview', 'loading': 'lazy'})
+        );        
+      }
+    }
+
+    class AmericanSectionPreview extends preview {
+      render() {
+        // get lists from list widgets that contain this section's articles
+        var articleLists = [
+          this.props.widgetsFor('gorham'),
+          this.props.widgetsFor('tiffany'),
+          this.props.widgetsFor('other')
+        ];
+
+        var formattedData = articleLists.map(list => {
+          return this.formatArticleData(list);
+        });          
+        
+        return h('div', {},
+          h('div', {'id': 'sitePreview'},
+            h('h3', {}, this.props.entry.getIn(['label'])),
+            h('div', {'className': 'articles-section'}, 
+              h('div', {'className': 'flex-item'}, 
+                h('h6', {}, 'Gorham'),
+                h('ul', {}, formattedData[0])
+              ),
+              h('div', {'className': 'flex-item'}, 
+                h('h6', {}, 'Tiffany'),
+                h('ul', {'className': 'space-bottom'}, formattedData[1]),
+                h('h6', {}, 'Other'),
+                h('ul', {}, formattedData[2])
               )
             ),
           ),
@@ -69,6 +104,9 @@
     
     const simplePreviewSections =  ['japanese_section', 'global_section', 'holder_section'];
     simplePreviewSections.forEach(elem => CMS.registerPreviewTemplate(elem, SimplePreview));
+    
+    CMS.registerPreviewTemplate('american_section', AmericanSectionPreview);
+    
     CMS.registerPreviewStyle("/admin/preview-style.css");
   </script>
 </body>
