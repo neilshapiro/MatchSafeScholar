@@ -52,7 +52,7 @@
         return h('div', {},
           h('div', {'id': 'sitePreview'},
             h('h3', {}, this.props.entry.getIn(['label'])),
-            h('div', {'className': 'articles-section'}, 
+            h('div', {'className': 'articles-section flex-container'}, 
               h('div', {'className': 'flex-item'}, 
                 h('ul', {}, formattedData.slice(0, split))
               ),
@@ -83,7 +83,7 @@
         return h('div', {},
           h('div', {'id': 'sitePreview'},
             h('h3', {}, this.props.entry.getIn(['label'])),
-            h('div', {'className': 'articles-section'}, 
+            h('div', {'className': 'articles-section flex-container'}, 
               h('div', {'className': 'flex-item'}, 
                 h('h6', {}, 'Gorham'),
                 h('ul', {}, formattedData[0])
@@ -102,12 +102,55 @@
       }
     }
     
+    class EuropeanSectionPreview extends preview {
+      render() {
+        // get lists from list widgets that contain this section's articles
+        var articleLists = [
+          this.props.widgetsFor('uk'),
+          this.props.widgetsFor('russia'),
+          this.props.widgetsFor('france'),
+          this.props.widgetsFor('spain')
+        ];
+
+        var formattedData = articleLists.map(list => {
+          return this.formatArticleData(list);
+        });          
+        
+        return h('div', {},
+          h('div', {'id': 'sitePreview'},
+            h('h3', {}, this.props.entry.getIn(['label'])),
+            h('div', {'className': 'articles-section flex-container'}, 
+              h('div', {'className': 'flex-item'}, 
+                h('h6', {}, 'United Kingdom'),
+                h('ul', {'className': 'space-bottom'}, formattedData[0])
+              ),
+              h('div', {'className': 'flex-item'},
+                h('h6', {}, 'France'),
+                h('ul', {'className': 'space-bottom'}, formattedData[2])
+              ),
+              h('div', {'className': 'flex-item'}, 
+                h('h6', {}, 'Russia'),
+                h('ul', {}, formattedData[1])
+              ),
+              h('div', {'className': 'flex-item'},
+                h('h6', {}, 'Spain'),
+                h('ul', {}, formattedData[3])
+              )
+            ),
+          ),
+          h('h3', {'id': 'pdfHeader'}, 'PDF Preview:'),
+          h('iframe', {'name': 'pdfPreview', 'id': 'pdfPreview', 'loading': 'lazy'})
+        );        
+      }
+    }
+
+    CMS.registerPreviewStyle("/admin/preview-style.css");
+
     const simplePreviewSections =  ['japanese_section', 'global_section', 'holder_section'];
     simplePreviewSections.forEach(elem => CMS.registerPreviewTemplate(elem, SimplePreview));
     
     CMS.registerPreviewTemplate('american_section', AmericanSectionPreview);
-    
-    CMS.registerPreviewStyle("/admin/preview-style.css");
+    CMS.registerPreviewTemplate('european_section', EuropeanSectionPreview);    
   </script>
 </body>
 </html>

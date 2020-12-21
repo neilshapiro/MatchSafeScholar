@@ -57,12 +57,6 @@ title: Works
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
-      <h6 style="margin-top:20px;">Russia</h6>
-      <ul class="articles">
-        {% for article in site.data.articles.european.russia %}
-        {% include article-list-item.html path=article.path title=article.title %}
-        {% endfor %}
-      </ul>
     </div>
     <div class="col-md-6">
       <h6>France</h6>
@@ -71,7 +65,19 @@ title: Works
         {% include article-list-item.html path=article.path title=article.title %}
         {% endfor %}
       </ul>
-      <h6 style="margin-top:20px;">Spain</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h6>Russia</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.european.russia %}
+        {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">      
+      <h6>Spain</h6>
       <ul class="articles">
         {% for article in site.data.articles.european.spain %}
         {% include article-list-item.html path=article.path title=article.title %}
