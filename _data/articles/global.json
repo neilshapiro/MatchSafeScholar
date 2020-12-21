@@ -2,19 +2,19 @@
     "all": [
         {
             "title": "Match Safes around the World",
-            "path": "Match Safes around the World.pdf"
+            "path": "/assets/pdfs/articles/Match Safes around the World.pdf"
         },
         {
             "title": "Consideration of Two Norwegian Match Safes",
-            "path": "Two Norwegian enamel match safes both made for export by David.pdf"
+            "path": "/assets/pdfs/articles/Two Norwegian enamel match safes both made for export by David.pdf"
         },
         {
             "title": "Thai Match Safe",
-            "path": "Thai_safe_essay.pdf"
+            "path": "/assets/pdfs/articles/Thai_safe_essay.pdf"
         },
         {
             "title": "Chinese Match Safes",
-            "path": "Chinese Match Safes _essay.pdf"
+            "path": "/assets/pdfs/articles/Chinese Match Safes _essay.pdf"
         }
     ]
 }
