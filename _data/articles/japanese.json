@@ -1,24 +1,24 @@
 {
-  "all": [
-    {
-      "title": "Japanese Sword Safes: Good, Better, Best",
-      "path": "/assets/pdfs/articles/Sword match safes_good_better.pdf"
-    },
-    {
-      "title": "A Mokume Gane Match Safe",
-      "path": "/assets/pdfs/articles/A MOKUME Gane Match safe.pdf"
-    },
-    {
-      "title": "Japanese Patinas",
-      "path": "/assets/pdfs/articles/Japanese patinas.pdf"
-    },
-    {
-      "title": "Japanese Silver Match Safes",
-      "path": "/assets/pdfs/articles/Japanese Silver Match Safes proof.pdf"
-    },
-    {
-      "title": "Tips for the Collector of Japanese Match Safes",
-      "path": "/assets/pdfs/articles/Tips for the collector of Japanese Match Safes.pdf"
-    }
-  ]
+    "all": [
+        {
+            "title": "Japanese Sword Safes: Good, Better, Best",
+            "path": "/assets/pdfs/articles/Japanese_Sword_Safes_Good_Better_Best.pdf"
+        },
+        {
+            "title": "A Mokume Gane Match Safe",
+            "path": "/assets/pdfs/articles/A_Mokume_Gane_Match_Safe.pdf"
+        },
+        {
+            "title": "Japanese Patinas",
+            "path": "/assets/pdfs/articles/Japanese_Patinas.pdf"
+        },
+        {
+            "title": "Japanese Silver Match Safes",
+            "path": "/assets/pdfs/articles/Japanese_Silver_Match_Safes.pdf"
+        },
+        {
+            "title": "Tips for the Collector of Japanese Match Safes",
+            "path": "/assets/pdfs/articles/Tips_for_the_Collector_of_Japanese_Match_Safes.pdf"
+        }
+    ]
 }
