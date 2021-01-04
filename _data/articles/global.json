@@ -1,20 +1,24 @@
 {
-    "all": [
-        {
-            "title": "Match Safes around the World",
-            "path": "/assets/pdfs/articles/Match_Safes_around_the_World.pdf"
-        },
-        {
-            "title": "Consideration of Two Norwegian Match Safes",
-            "path": "/assets/pdfs/articles/Consideration_of_Two_Norwegian_Match_Safes.pdf"
-        },
-        {
-            "title": "Thai Match Safe",
-            "path": "/assets/pdfs/articles/Thai_Match_Safe.pdf"
-        },
-        {
-            "title": "Chinese Match Safes",
-            "path": "/assets/pdfs/articles/Chinese_Match_Safes.pdf"
-        }
-    ]
+  "all": [
+    {
+      "title": "Match Safes around the World",
+      "path": "/assets/pdfs/articles/Match_Safes_around_the_World.pdf"
+    },
+    {
+      "title": "Consideration of Two Norwegian Match Safes",
+      "path": "/assets/pdfs/articles/Consideration_of_Two_Norwegian_Match_Safes.pdf"
+    },
+    {
+      "title": "Thai Match Safe",
+      "path": "/assets/pdfs/articles/Thai_Match_Safe.pdf"
+    },
+    {
+      "title": "Chinese Match Safes",
+      "path": "/assets/pdfs/articles/Chinese_Match_Safes.pdf"
+    },
+    {
+      "path": "/assets/pdfs/articles/a-tinder-box-match-safe-hybrid.pdf",
+      "title": "A Tinder Box Match Safe Hybrid"
+    }
+  ]
 }
