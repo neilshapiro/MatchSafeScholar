@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    <div id="options">
+      <div id="zoom-control">
+        <button id="zoom-out">
+          <span class="material-icons-outlined">remove</span>
+        </button>
+        <span>Zoom</span>
+        <button id="zoom-in">
+          <span class="material-icons-outlined">add</span>
+        </button>
+      </div>
+      <a class="option-button" target="_blank" href="{{ page.pdfPath }}">View as PDF</a>
+    </div>    
+    
+    <div id="flipbookholder">
+      <button class="left-button">
+        <span class="material-icons-outlined">chevron_left</span>
+      </button>      
+      <div id="flipbook">
+        {% for x in (1..18) %}
+        <div><img src="pages/{{ x }}.png"></div>
+        {% endfor %} 
+      </div>
+      <button class="right-button">
+        <span class="material-icons-outlined">chevron_right</span>
+      </button>
+    </div>
+
+    <div id="mobile-nav">
+      <button class="left-button">
+        <span class="material-icons-outlined">chevron_left</span>
+      </button>  
+      <button class="right-button">
+        <span class="material-icons-outlined">chevron_right</span>
+      </button>
+    </div>
+
+    <script src="js/jquery-popper-bootstrap.js"></script>
+    <script src="js/turn.js"></script>
+    <script src="js/flipbook.js"></script>
+  </body>
+
+</html>
