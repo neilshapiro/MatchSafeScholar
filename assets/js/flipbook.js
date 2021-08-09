@@ -53,15 +53,20 @@ $(".right-button").click(function() {
 
 // custom autocentering for use with display flex
 function autoCenter(currentPage) {
+  const lastPage = flipbook.turn('pages');
+
   // don't need to autocenter on single mode view
   if (displayMode === "single") {
-    flipbook.css("margin-left", "0px");      
-  } else if (currentPage == 1) {
-    const newMargin = flipbook.turn('size').width / 2;
-    flipbook.css("margin-left", "-"+newMargin+"px");
-  } else if (currentPage == 2) {
-    // reset the left margin when we get to page 2
     flipbook.css("margin-left", "0px");
+    flipbook.css("margin-right", "0px");     
+  } else if (currentPage == 1 || currentPage == lastPage) {
+    const newMargin = flipbook.turn('size').width / 2;
+    const marginSide = currentPage == 1 ? "left" : "right";
+    flipbook.css("margin-"+marginSide, "-"+newMargin+"px");
+  } else if (currentPage == 2 || currentPage == lastPage-1) {
+    // reset the left/right margin when we get to page 2 or the page previous the last one
+    const marginSide = currentPage == 2 ? "left" : "right";
+    flipbook.css("margin-"+marginSide, "0px");
   }
 }
 
