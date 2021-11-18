@@ -109,7 +109,8 @@
           this.props.widgetsFor('uk'),
           this.props.widgetsFor('russia'),
           this.props.widgetsFor('france'),
-          this.props.widgetsFor('spain')
+          this.props.widgetsFor('spain'),
+          this.props.widgetsFor('austria')
         ];
 
         var formattedData = articleLists.map(list => {
@@ -135,6 +136,10 @@
               h('div', {'className': 'flex-item'},
                 h('h6', {}, 'Spain'),
                 h('ul', {}, formattedData[3])
+              ),
+              h('div', {'className': 'flex-item'},
+                h('h6', {}, 'Austria'),
+                h('ul', {}, formattedData[4])
               )
             ),
           ),

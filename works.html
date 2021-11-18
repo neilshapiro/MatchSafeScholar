@@ -85,6 +85,16 @@ title: Works
       </ul>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h6>Austria</h6>
+      <ul class="articles">
+        {% for article in site.data.articles.european.austria %}
+        {% include article-list-item.html path=article.path title=article.title %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
 
 
