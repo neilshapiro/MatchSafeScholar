@@ -64,6 +64,12 @@ collections:
             fields:
               - {label: "Name", name: "title", widget: "string"}
               - {label: "File", name: "path", widget: "file"}
+          - label: "Austria articles"
+            name: "austria"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "title", widget: "string"}
+              - {label: "File", name: "path", widget: "file"}
       - label: "Japanese Match Safes"
         name: "japanese_section"
         file: "_data/articles/japanese.json"        
