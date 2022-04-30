@@ -1,0 +1,22 @@
+---
+layout: default
+title: SaleItem
+---
+<h2 class="page-content-title">{{ page.title }}</h2>
+<div class="sale-item-container">
+  <div>
+    <div class="item-img"></div>
+    <div class="item-thumbnail-list">
+      {% for i in (1..7) %}
+      <div class="item-thumbnail"></div>
+      {% endfor %}
+    </div>
+  </div>  
+  <div>
+    <span class="">${{ page.price }}</span>
+    <p class="">{{ content }}</p>
+    <div>Measurements: {{ page.measurements }}</div>
+    <div>Material: {{ page.material }}</div>
+  </div>
+</div>
+    

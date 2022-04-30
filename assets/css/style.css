@@ -123,6 +123,36 @@ table td {
 .no-padding {
   margin-bottom: 0;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.item-img {
+  background-color: lightgray;
+  height: 500px;
+}
+.grid .item-img {
+  height: 200px;
+}
+.sale-item-container {
+  display: flex;
+}
+.sale-item-container > div {
+  flex: 1;
+}
+.item-thumbnail-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+.item-thumbnail {
+  background-color: lightgray;
+  height: 80px;
+  width: 80px;
+}
 @media (max-width: 768px) {
   #gallery img {
     max-height: 300px;

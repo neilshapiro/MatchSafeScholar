@@ -8,5 +8,7 @@
   link: /services
 - name: Links
   link: /links
+- name: Sales
+  link: /sales
 - name: Contact
   link: /contact

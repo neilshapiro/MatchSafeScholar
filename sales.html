@@ -1,0 +1,18 @@
+---
+layout: default
+title: Sales
+---
+<h2 class="page-content-title">SALES</h2>
+<p style="margin-bottom:30px;">
+  These are match safes currently for sale. Please contact me if you have any questions.
+</p>
+<div class="grid">
+  {% for i in (1..7) %}
+  <div class="grid-item">
+    <div class="item-img"></div>
+    <a class="item-title" href="/sale-item">Ulysses Grant Head</a>
+    <div class="item-year">1888</div>
+    <div class="item-price">$400</div>
+  </div>
+  {% endfor %}
+</div>
