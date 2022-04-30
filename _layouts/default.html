@@ -22,9 +22,9 @@
     </div>
   </div>
   <script src="/assets/js/jquery-popper-bootstrap.js"></script>
-  {% unless page.title == "Services" or page.title == "Links" %}
+  {% if page.include_script %}  
   {% include {{ page.title | downcase }}-scripts.html %}
-  {% endunless %}
+  {% endif %}
 </body>
 
 </html>
