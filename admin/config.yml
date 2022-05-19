@@ -110,7 +110,7 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "ID", name: "id", widget: "number"}
+      - {label: "ID", name: "item_id", widget: "number"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Age", name: "age", widget: "number", required: false}
       - {label: "Measurements", name: "measurements", widget: "string", required: false}

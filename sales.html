@@ -7,12 +7,14 @@ title: Sales
   These are match safes currently for sale. Please contact me if you have any questions.
 </p>
 <div class="grid">
-  {% for i in (1..7) %}
+  {% for item in site.sales %}
   <div class="grid-item">
-    <div class="item-img"></div>
-    <a class="item-title" href="/sale-item">Ulysses Grant Head</a>
-    <div class="item-year">1888</div>
-    <div class="item-price">$400</div>
+    <a href="{{ item.url }}">
+      <img class="item-img" src="{{ item.images[0] }}">
+    </a>
+    <a class="item-title" href="{{ item.url }}">{{ item.title }}</a>
+    <div class="item-year">{{ item.age }}</div>
+    <div class="item-price">${{ item.price }}</div>
   </div>
   {% endfor %}
 </div>

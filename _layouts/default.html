@@ -24,6 +24,8 @@
   <script src="/assets/js/jquery-popper-bootstrap.js"></script>
   {% if page.include_script %}  
   {% include {{ page.title | downcase }}-scripts.html %}
+  {% elsif layout.include_script %}  
+  {% include {{ layout.title | downcase }}-scripts.html %}
   {% endif %}
 </body>
 
