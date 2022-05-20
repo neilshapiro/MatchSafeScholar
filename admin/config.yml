@@ -122,3 +122,5 @@ collections:
         widget: "list"
         field: {label: "Image", name: "image", widget: "image", allow_multiple: true}
         min: 1
+    summary: "{{item_id}}: {{title}}"
+    sortable_fields: ["item_id", "title"]
