@@ -180,6 +180,12 @@ table td {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  #sale-item-container {
+    flex-direction: column;
+  }
+  #item-info {
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   #gallery img {
