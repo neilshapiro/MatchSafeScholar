@@ -110,13 +110,13 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "ID", name: "item_id", widget: "number"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "ID", name: "item_id", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Age", name: "age", widget: "number", required: false}
       - {label: "Measurements", name: "measurements", widget: "string", required: false}
       - {label: "Material", name: "material", widget: "string", required: false}
       - {label: "Notes", name: "body", widget: "text", required: false}
-      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Price", name: "price", widget: widget: "string", required: false}
       - label: "Images"
         name: "images"
         widget: "list"
