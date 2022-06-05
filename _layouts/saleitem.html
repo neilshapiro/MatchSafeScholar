@@ -16,34 +16,40 @@ include_script: true
     {% endif %}
   </div>  
   <div id="item-info">
+    {% if page.price and page.price != empty %}
     <span id="item-price">{{ page.price }}</span>
+    {% endif %}
+
+    {% comment %} Not sure how to check if 'content' var is empty (content != empty doesn't seem to work) {% endcomment %}
     <p>{{ content }}</p>
 
-    {% if page.age != empty  %}
+    {% if page.age and page.age != empty%}
     <div>
       <span class="label">Age: </span>
       {{ page.age }}
     </div>
     {% endif %}
 
-    {% if page.measurements != empty  %}
+    {% if page.measurements and page.measurements != empty %}
     <div>
       <span class="label">Measurements: </span>
       {{ page.measurements }}
     </div>
     {% endif %}
 
-    {% if page.material != empty  %}
+    {% if page.material and page.material != empty %}
     <div>
       <span class="label">Material: </span>
       {{ page.material }}
     </div>
     {% endif %}
 
+    {% if page.item_id and page.item_id != empty %}
     <div>
       <span class="label">ID: </span>
       {{ page.item_id }}
     </div>
+    {% endif %}
 
     <p id="inquiry-note">
       For inquiries, please send an email to <a href="mailto:nshapir1@nycap.rr.com">nshapir1@nycap.rr.com</a>
