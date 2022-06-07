@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # To connect the CMS to a local repository, uncomment the line below and run `npx netlify-cms-proxy-server`
-# local_backend: true
+local_backend: true
 
 display_url: https://matchsafescholar.com
 
@@ -111,7 +111,7 @@ collections:
       preview: false
     fields:
       - {label: "ID", name: "item_id", widget: "string", required: false}
-      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Age", name: "age", widget: "number", required: false}
       - {label: "Measurements", name: "measurements", widget: "string", required: false}
       - {label: "Material", name: "material", widget: "string", required: false}
