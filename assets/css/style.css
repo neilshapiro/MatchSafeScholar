@@ -167,6 +167,9 @@ table td {
 #item-price {
   font-size: 1.8rem;
 }
+#item-info p:first-of-type {
+  margin-top: 1rem;
+}
 .label {
   font-weight: 600;
 }

@@ -20,8 +20,10 @@ include_script: true
     <span id="item-price">{{ page.price }}</span>
     {% endif %}
 
-    {% comment %} Not sure how to check if 'content' var is empty (content != empty doesn't seem to work) {% endcomment %}
-    <p>{{ content }}</p>
+    {% assign stripped_content = content | strip %}
+    {% if stripped_content != empty %}
+    {{ content }}
+    {% endif %}
 
     {% if page.age and page.age != empty%}
     <div>
