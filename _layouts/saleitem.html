@@ -17,7 +17,7 @@ include_script: true
   </div>  
   <div id="item-info">
     {% if page.price and page.price != empty %}
-    <span id="item-price">{{ page.price }}</span>
+    <div id="item-price">{{ page.price }}</div>
     {% endif %}
 
     {% assign stripped_content = content | strip %}
