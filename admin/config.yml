@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # To connect the CMS to a local repository, uncomment the line below and run `npx netlify-cms-proxy-server`
-local_backend: true
+# local_backend: true
 
 display_url: https://matchsafescholar.com
 
