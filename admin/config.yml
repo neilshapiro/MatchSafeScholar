@@ -112,7 +112,7 @@ collections:
     fields:
       - {label: "ID", name: "item_id", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Age", name: "age", widget: "number", required: false}
+      - {label: "Age", name: "age", widget: "string", required: false}
       - {label: "Measurements", name: "measurements", widget: "string", required: false}
       - {label: "Material", name: "material", widget: "string", required: false}
       - {label: "Notes", name: "body", widget: "text", required: false}
