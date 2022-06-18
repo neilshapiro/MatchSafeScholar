@@ -21,7 +21,7 @@ include_script: true
     {% endif %}
 
     {% assign stripped_content = content | strip %}
-    {% if stripped_content != empty %}
+    {% if stripped_content != empty and page.notes_at_bottom == false %}
     {{ content }}
     {% endif %}
 
@@ -59,3 +59,8 @@ include_script: true
     </p>
   </div>
 </div>
+{% if stripped_content != empty and page.notes_at_bottom %}
+<div class="item-bottom-notes">
+{{ content }}
+</div>
+{% endif %}

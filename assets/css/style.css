@@ -178,6 +178,9 @@ table td {
 #inquiry-note {
   margin-top: 30px;
 }
+.item-bottom-notes {
+  margin-top: 1.5em;
+}
 @media (max-width: 992px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
