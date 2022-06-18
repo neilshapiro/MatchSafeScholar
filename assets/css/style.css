@@ -165,10 +165,6 @@ table td {
   height: auto;
   max-height: 500px;
 }
-#item-info #item-price {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
 .label {
   font-weight: 600;
 }

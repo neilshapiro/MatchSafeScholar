@@ -16,10 +16,6 @@ include_script: true
     {% endif %}
   </div>  
   <div id="item-info">
-    {% if page.price and page.price != empty %}
-    <div id="item-price">{{ page.price }}</div>
-    {% endif %}
-
     {% assign stripped_content = content | strip %}
     {% if stripped_content != empty and page.notes_at_bottom == false %}
     {{ content }}
@@ -46,10 +42,16 @@ include_script: true
     </div>
     {% endif %}
 
+    {% if page.price and page.price != empty %}
+    <div>
+      <span class="label">Price: </span>
+      {{ page.price }}
+    </div>
+    {% endif %}
+
     {% if page.item_id and page.item_id != empty %}
     <div>
-      <span class="label">ID: </span>
-      {{ page.item_id }}
+      <span class="label">ID: {{ page.item_id }}</span>      
     </div>
     {% endif %}
 
