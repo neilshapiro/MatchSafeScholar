@@ -176,6 +176,7 @@ table td {
 }
 .item-bottom-notes {
   margin-top: 1.5em;
+  text-align: justify;
 }
 @media (max-width: 992px) {
   .grid {
