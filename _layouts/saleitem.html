@@ -6,11 +6,16 @@ include_script: true
 <h2 class="page-content-title">{{ page.title }}</h2>
 <div id="sale-item-container">
   <div id="item-images">
-    <img id="item-display" class="item-img" src="{{ page.images[0] | default: page.images }}" alt="">
+    <img
+      id="item-display"
+      class="item-img" 
+      src="{{ page.images[0] | default: page.images | replace: '/upload/', '/upload/t_sale_item_display/' }}"
+      alt=""
+    >
     {% if page.images.first and page.images.size > 1 %}
     <div class="item-thumbnail-list">
       {% for img in page.images %}
-      <img class="item-thumbnail" src="{{ img }}" alt="">
+      <img class="item-thumbnail" src="{{ img | replace: '/upload/', '/upload/t_sale_item_thumb/' }}" alt="">
       {% endfor %}
     </div>
     {% endif %}

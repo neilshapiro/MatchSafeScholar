@@ -1,7 +1,7 @@
 <script>
   $(function () {
     $('.item-thumbnail').click(function (event) {
-      $('#item-display').attr('src', event.target.src);
+      $('#item-display').attr('src', event.target.src.replace('/t_sale_item_thumb/', '/t_sale_item_display/'));
     });
   });
 </script>
