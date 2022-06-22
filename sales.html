@@ -10,7 +10,7 @@ title: Sales
   {% for item in site.sales %}
   <div class="grid-item">
     <a href="{{ item.url }}">
-      <img class="item-img" src="{{ item.images[0] }}">
+      <img class="item-img" src="{{ item.images[0] | default: item.images }}">
     </a>
     <a class="item-title" href="{{ item.url }}">{{ item.title }}</a>
     <div class="item-year">{{ item.age }}</div>
