@@ -10,6 +10,12 @@ display_url: https://matchsafescholar.com
 media_folder: "assets/pdfs/articles"
 public_folder: "/assets/pdfs/articles"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: matchsafescholar
+    api_key: 127539626658438
+
 collections:
   - label: "Articles"
     name: "articles"
@@ -121,7 +127,13 @@ collections:
       - label: "Images"
         name: "images"
         widget: "list"
-        field: {label: "Image", name: "image", widget: "image", allow_multiple: true}
         min: 1
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+          media_library:
+            config:
+              multiple: true
     summary: "{{item_id}}: {{title}}"
     sortable_fields: ["item_id", "title"]
