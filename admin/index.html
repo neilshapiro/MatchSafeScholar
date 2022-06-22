@@ -21,19 +21,8 @@
 
         return articleList.map((article, index) => {
           var title = article.getIn(['data', 'title']);
-          var path = article.getIn(['data', 'path']); // just returns the asset filename
-          var asset = this.props.getAsset(path);
-
-          // actual asset path is either in media library or in memory
-          if (asset.fileObj === undefined) {
-            // asset is in media library
-            // alternative: path = mediaPath + article.getIn(['data', 'path']);
-            path = '/' + asset.path;
-          } else {
-            // asset is in memory
-            path = asset.toString();
-          }
-
+          var path = article.getIn(['data', 'path']);    
+          
           return h('li', {}, 
             h('a', {'href': path, 'target': 'pdfPreview'}, title)
           );
