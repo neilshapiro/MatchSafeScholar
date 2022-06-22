@@ -10,7 +10,7 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
-    var preview = createClass({      
+    let preview = createClass({      
       // children need to implement their own render function
       render: function() {
         return null;
@@ -20,8 +20,8 @@
       formatArticleData: function(articleList) {
 
         return articleList.map((article, index) => {
-          var title = article.getIn(['data', 'title']);
-          var path = article.getIn(['data', 'path']);    
+          let title = article.getIn(['data', 'title']);
+          let path = article.getIn(['data', 'path']);    
           
           return h('li', {}, 
             h('a', {'href': path, 'target': 'pdfPreview'}, title)
@@ -33,10 +33,10 @@
     class SimplePreview extends preview {
       render() {
         // 'all' is the name of the list widget that contains this section's articles
-        var articleList = this.props.widgetsFor('all');
-        var split = Math.ceil(articleList.size/2);
-        // var mediaPath = this.props.config.getIn(['public_folder']) + '/';
-        var formattedData = this.formatArticleData(articleList);    
+        let articleList = this.props.widgetsFor('all');
+        let split = Math.ceil(articleList.size/2);
+        // let mediaPath = this.props.config.getIn(['public_folder']) + '/';
+        let formattedData = this.formatArticleData(articleList);    
         
         return h('div', {},
           h('div', {'id': 'sitePreview'},
@@ -59,13 +59,13 @@
     class AmericanSectionPreview extends preview {
       render() {
         // get lists from list widgets that contain this section's articles
-        var articleLists = [
+        let articleLists = [
           this.props.widgetsFor('gorham'),
           this.props.widgetsFor('tiffany'),
           this.props.widgetsFor('other')
         ];
 
-        var formattedData = articleLists.map(list => {
+        let formattedData = articleLists.map(list => {
           return this.formatArticleData(list);
         });          
         
@@ -94,7 +94,7 @@
     class EuropeanSectionPreview extends preview {
       render() {
         // get lists from list widgets that contain this section's articles
-        var articleLists = [
+        let articleLists = [
           this.props.widgetsFor('uk'),
           this.props.widgetsFor('russia'),
           this.props.widgetsFor('france'),
@@ -102,7 +102,7 @@
           this.props.widgetsFor('austria')
         ];
 
-        var formattedData = articleLists.map(list => {
+        let formattedData = articleLists.map(list => {
           return this.formatArticleData(list);
         });          
         
