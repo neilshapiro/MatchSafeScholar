@@ -29,19 +29,19 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "Tiffany articles"
             name: "tiffany"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "Other articles"
             name: "other"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
       - label: "European Match Safes (Vestas)"
         name: "european_section"
         file: "_data/articles/european.json"        
@@ -51,31 +51,31 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "Russia articles"
             name: "russia"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "France articles"
             name: "france"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "Spain articles"
             name: "spain"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
           - label: "Austria articles"
             name: "austria"
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
       - label: "Japanese Match Safes"
         name: "japanese_section"
         file: "_data/articles/japanese.json"        
@@ -85,7 +85,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
       - label: "Global Match Safes"
         name: "global_section"
         file: "_data/articles/global.json"       
@@ -95,7 +95,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
       - label: "Match Holders"
         name: "holder_section"
         file: "_data/articles/holders.json"     
@@ -105,7 +105,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Name", name: "title", widget: "string"}
-              - {label: "File", name: "path", widget: "file"}
+              - {label: "File", name: "path", widget: "file", media_library: {config: {folder: {path: articles}}}}
   - label: "Sales"
     name: "sales"
     folder: "_sales"
@@ -130,5 +130,7 @@ collections:
         media_library:
           config:
             multiple: true
+            folder:
+              path: sales
     summary: "{{item_id}}: {{title}}"
     sortable_fields: ["item_id", "title"]
