@@ -126,14 +126,9 @@ collections:
       - {label: "Price", name: "price", widget: "string", required: false}
       - label: "Images"
         name: "images"
-        widget: "list"
-        min: 1
-        field:
-          label: "Image"
-          name: "image"
-          widget: "image"
-          media_library:
-            config:
-              multiple: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
     summary: "{{item_id}}: {{title}}"
     sortable_fields: ["item_id", "title"]
