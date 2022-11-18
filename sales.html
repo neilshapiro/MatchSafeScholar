@@ -12,7 +12,12 @@ title: Sales
     <a href="{{ item.url }}">
       <img class="item-img" src="{{ item.images[0] | default: item.images | replace: '/upload/', '/upload/t_sales_thumb/' }}">
     </a>
-    <a class="item-title" href="{{ item.url }}">{{ item.title }}</a>
+    <a class="item-title" href="{{ item.url }}">
+      {% if item.item_id and item.item_id != empty %}
+        {{ item.item_id | append: ": " }}
+      {% endif %}
+      {{ item.title }}
+    </a>
     <div class="item-year">{{ item.age }}</div>
     <div class="item-price">{{ item.price }}</div>
   </div>
