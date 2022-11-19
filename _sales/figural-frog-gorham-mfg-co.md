@@ -9,8 +9,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656698123/frog3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656698103/frog1.jpg
 ---
-**Title:	        Figural Frog Gorham Mfg. Co. 
-Material:	Silver plate 
-Maker:	        Gorham Mfg. Co., 
-Condition:	Excellent
-Notes:		Beautifully modeled frog**
+**Title:	        Figural Frog Gorham Mfg. Co.** 
+
+
+**Material:	Silver plate** 
+
+
+**Maker:	        Gorham Mfg. Co.**
+
+
+**Condition:	Excellent**
+
+
+**Notes:		Beautifully modeled frog**
