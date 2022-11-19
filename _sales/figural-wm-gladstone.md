@@ -9,8 +9,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538810/Gladstone1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538810/Gladstone2.jpg
 ---
-**Title:		Figural Wm. Gladstone c.1900
-Material:	Plated silver over brass or nickel plated brass
-Maker:	        Unknown, c.1900
-Condition:	Excellent
-Notes:		Carefully modeled head of Wm. Gladstone**
+**Title:		Figural Wm. Gladstone** 
+
+
+**Material:	Plated silver over brass or nickel plated brass**
+
+
+**Maker:	        Unknown, c.1900**
+
+
+**Condition:	Excellent**
+
+
+**Notes:		Carefully modeled head of Wm. Gladstone**
