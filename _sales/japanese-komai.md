@@ -9,7 +9,13 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538833/Komai1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538832/Komai2.jpg
 ---
-**Title:		Japanese Komai
-Material:	Patinated design of peacocks & traditional Japanese houses
-Maker:	        Unknown c.1900
-Condition:	Excellent**
+**Title:		Japanese Komai**
+
+
+**Material:	Patinated design of peacocks & traditional Japanese houses**
+
+
+**Maker:	        Unknown c.1900**
+
+
+**Condition:	Excellent**
