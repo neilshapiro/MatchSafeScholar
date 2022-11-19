@@ -9,8 +9,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538871/Biting_snake2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538871/Biting_snake21.jpg
 ---
-**Title:		Sterling Coiled Repousse Snakes, 
-Material:	Sterling Silver
-Maker:	        Unknown American maker
-Condition:	Excellent, extraordinary repousse work.
-Notes:		Intertwined snakes around entire match safe.**
+**Title:		Sterling Coiled Repousse Snakes**
+
+
+**Material:	Sterling Silver**
+
+
+**Maker:	        Unknown American maker**
+
+
+**Condition:	Excellent, extraordinary repousse work.**
+
+
+**Notes:		Intertwined snakes around entire match safe.**
