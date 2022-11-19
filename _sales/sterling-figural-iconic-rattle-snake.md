@@ -8,8 +8,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538864/snake1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538863/snake_open.jpg
 ---
-**Title:		Sterling Figural Iconic Rattle Snake
-Material:	Sterling Silver
-Maker:	        Wm. B. Kerr & Co., Newark, NJ 1855-1906
-Condition:	Excellent, extraordinary repousse work & detail. Gold washed interior, 2 very tiny dings on side.
-Notes:		Intertwined snakes around entire match safe.**
+**Title:		Sterling Figural Iconic Rattle Snake**
+
+
+**Material:	Sterling Silver**
+
+
+**Maker:	        Wm. B. Kerr & Co., Newark, NJ 1855-1906**
+
+
+**Condition:	Excellent, extraordinary repousse work & detail. Gold washed interior, 2 very tiny dings on side.**
+
+
+**Notes:		Intertwined snakes around entire match safe.**
