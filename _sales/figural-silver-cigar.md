@@ -10,7 +10,13 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538789/Cigar1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538787/Cigar3.jpg
 ---
-**Title:		Figural Silver Cigar c.1900
-Material:	Silver or silver plate (untested)
-Maker:	        Unknown. It has a Tiffany type striker and Tiffany did make this match safe in sterling but this safe is not marked.
-Condition:	Excellent**
+**Title:		Figural Silver Cigar** 
+
+
+**Material:	Silver or silver plate (untested)**
+
+
+**Maker:	        Unknown. It has a Tiffany type striker and Tiffany did make this match safe in sterling but this safe is not marked.**
+
+
+**Condition:	Excellent**
