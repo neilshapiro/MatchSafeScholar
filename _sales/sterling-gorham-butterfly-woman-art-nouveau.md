@@ -8,8 +8,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538786/Butterfly_open.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538785/Butterfly_front.jpg
 ---
-**Title:		Sterling Gorham Butterfly Woman Art Nouveau
-Material:	Sterling Silver
-Maker:	       Gorham Mfg. Co., Providence, RI
-Condition:	Excellent, Prod. # B2299, all detail are sharp, both sides have a different design.
-Notes:		One of the best American Art Nouveau safes**
+**Title:		Sterling Gorham Butterfly Woman Art Nouveau**
+
+
+**Material:	Sterling Silver**
+
+
+**Maker:	       Gorham Mfg. Co., Providence, RI**
+
+
+**Condition:	Excellent, Prod. # B2299, all detail are sharp, both sides have a different design.**
+
+
+**Notes:		One of the best American Art Nouveau safes**
