@@ -1,8 +1,7 @@
 ---
 item_id: "28"
-title: " Figural Frog Gorham Mfg. Co. c.1880"
-age: "1880"
-material: Silver plate
+title: "Figural Frog Gorham Mfg. Co. "
+age: c.1880
 notes_at_bottom: false
 price: $155.00
 images:
@@ -10,12 +9,16 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656698123/frog3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656698103/frog1.jpg
 ---
-**Title:		Match Safe Vesta Match Holder Figural Frog Gorham Mfg. Co. c.1880**
+**Title:	        Figural Frog Gorham Mfg. Co.** 
+
 
 **Material:	Silver plate** 
 
-**Maker:	        Gorham Mfg. Co., c.1880**
+
+**Maker:	        Gorham Mfg. Co.**
+
 
 **Condition:	Excellent**
 
-**Notes:		Beautifully modeled frog, 2 ¼” long**
+
+**Notes:		Beautifully modeled frog**
