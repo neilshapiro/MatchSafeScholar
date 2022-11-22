@@ -1,5 +1,5 @@
 ---
-item_id: "51"
+item_id: 51
 title: " Enamel & Vermeil Silver Gorham"
 age: "1897"
 notes_at_bottom: false

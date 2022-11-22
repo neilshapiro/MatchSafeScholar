@@ -1,5 +1,5 @@
 ---
-item_id: "45"
+item_id: 45
 title: Sterling Gorham Butterfly Woman Art Nouveau
 age: c.1904
 notes_at_bottom: false

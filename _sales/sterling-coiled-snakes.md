@@ -1,5 +1,5 @@
 ---
-item_id: "40"
+item_id: 40
 title: Sterling Coiled Snakes
 age: c.1890
 notes_at_bottom: false

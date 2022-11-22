@@ -1,5 +1,5 @@
 ---
-item_id: "22"
+item_id: 22
 title: Japanese Mixed Metal Monkey
 age: c.1900
 notes_at_bottom: false

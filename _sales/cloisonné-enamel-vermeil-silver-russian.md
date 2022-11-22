@@ -1,5 +1,5 @@
 ---
-item_id: "53"
+item_id: 53
 title: Cloisonné enamel & Vermeil Silver Russian
 age: c.1900
 notes_at_bottom: false

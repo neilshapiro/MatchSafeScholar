@@ -1,5 +1,5 @@
 ---
-item_id: "43"
+item_id: 43
 title: "Sterling Figural Iconic Rattle Snake, "
 age: c.1890
 notes_at_bottom: false

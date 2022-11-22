@@ -1,5 +1,5 @@
 ---
-item_id: "27"
+item_id: 27
 title: "Figural Wm. Gladstone "
 age: c.1900
 measurements: 2 1/4" long

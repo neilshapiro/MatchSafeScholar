@@ -1,5 +1,5 @@
 ---
-item_id: "25"
+item_id: 25
 title: Sterling Horseshoe Shaped
 age: c.1900
 measurements: 2 ½” x 2”

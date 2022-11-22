@@ -1,5 +1,5 @@
 ---
-item_id: "37"
+item_id: 37
 title: "Sterling Sunflowers & more Beautiful Raised Silverwork "
 age: c.1900
 notes_at_bottom: false

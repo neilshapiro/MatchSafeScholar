@@ -1,5 +1,5 @@
 ---
-item_id: "50"
+item_id: 50
 title: Japanese Ivory w/Extraordinary raised monogram
 age: c.1900
 notes_at_bottom: false

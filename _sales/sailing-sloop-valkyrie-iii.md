@@ -1,5 +1,5 @@
 ---
-item_id: "1"
+item_id: 1
 title: Sailing Sloop Valkyrie III
 age: "1895"
 material: Sterling & enamel

@@ -1,5 +1,5 @@
 ---
-item_id: "21"
+item_id: 21
 title: Patinated Japanese ONI
 age: c.1900
 notes_at_bottom: false

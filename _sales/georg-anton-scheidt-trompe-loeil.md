@@ -1,5 +1,5 @@
 ---
-item_id: "4"
+item_id: 4
 title: Georg Anton Scheidt trompe l'oeil
 age: "1900"
 material: Enamel & 900 silver

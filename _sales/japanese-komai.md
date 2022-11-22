@@ -1,5 +1,5 @@
 ---
-item_id: "23"
+item_id: 23
 title: Japanese Komai
 age: c.1900
 notes_at_bottom: false

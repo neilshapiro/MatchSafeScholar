@@ -1,5 +1,5 @@
 ---
-item_id: "2"
+item_id: 2
 title: Mikado
 age: "1886"
 material: Sterling & enamel

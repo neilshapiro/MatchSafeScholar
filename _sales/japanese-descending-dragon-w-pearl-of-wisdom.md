@@ -1,5 +1,5 @@
 ---
-item_id: "18"
+item_id: 18
 title: Japanese descending dragon w/pearl of wisdom
 age: c.1900
 notes_at_bottom: false

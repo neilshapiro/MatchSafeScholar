@@ -1,5 +1,5 @@
 ---
-item_id: "17"
+item_id: 17
 title: Japanese Games
 age: c.1900
 notes_at_bottom: false

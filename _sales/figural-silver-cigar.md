@@ -1,5 +1,5 @@
 ---
-item_id: "32"
+item_id: 32
 title: "Figural Silver Cigar "
 age: c.1900
 measurements: 4 1/2" long

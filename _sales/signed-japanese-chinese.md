@@ -1,5 +1,5 @@
 ---
-item_id: "52"
+item_id: 52
 title: Signed Japanese/Chinese
 age: c.1900
 notes_at_bottom: false

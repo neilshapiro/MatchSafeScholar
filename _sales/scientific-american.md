@@ -1,5 +1,5 @@
 ---
-item_id: "16"
+item_id: 16
 title: Scientific American
 age: "1890"
 notes_at_bottom: false

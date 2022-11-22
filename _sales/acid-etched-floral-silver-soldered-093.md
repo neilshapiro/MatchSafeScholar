@@ -1,5 +1,5 @@
 ---
-item_id: "55"
+item_id: 55
 title: "Acid Etched Floral Silver Soldered #093"
 age: c.1900
 notes_at_bottom: false

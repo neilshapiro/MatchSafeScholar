@@ -1,5 +1,5 @@
 ---
-item_id: "8"
+item_id: 8
 title: "Mother of Pearl "
 age: C.1880
 notes_at_bottom: false

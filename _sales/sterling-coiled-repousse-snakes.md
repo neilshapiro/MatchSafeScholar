@@ -1,5 +1,5 @@
 ---
-item_id: "42"
+item_id: 42
 title: Sterling Coiled Repousse Snakes
 age: c.1890
 notes_at_bottom: false

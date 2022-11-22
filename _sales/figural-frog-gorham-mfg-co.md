@@ -1,5 +1,5 @@
 ---
-item_id: "28"
+item_id: 28
 title: "Figural Frog Gorham Mfg. Co. "
 age: c.1880
 notes_at_bottom: false

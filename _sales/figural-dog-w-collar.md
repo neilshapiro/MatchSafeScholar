@@ -1,5 +1,5 @@
 ---
-item_id: "12"
+item_id: 12
 title: Figural Dog w/collar
 age: c.1880
 material: ""

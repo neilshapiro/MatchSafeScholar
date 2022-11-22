@@ -1,5 +1,5 @@
 ---
-item_id: "41"
+item_id: 41
 title: Sterling Coiled Dragons Snake-like bodies
 age: c.1890
 notes_at_bottom: false
