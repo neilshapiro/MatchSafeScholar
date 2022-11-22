@@ -12,6 +12,7 @@ theme: null
 collections:
   sales:
     output: true
+    sort_by: item_id
 
 defaults:
   - scope:
