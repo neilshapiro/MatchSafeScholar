@@ -7,6 +7,8 @@ price: $875.00
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538786/Butterfly_open.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538785/Butterfly_front.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1656010597/sales/Butterfly2.2.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1668947734/Butterfly_striker.jpg
 ---
 **Title:		Sterling Gorham Butterfly Woman Art Nouveau**
 
