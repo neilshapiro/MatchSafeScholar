@@ -1,6 +1,6 @@
 ---
 item_id: 60
-title: Indian Figures International Tailorinf Co.
+title: Indian Figures International Tailoring Co.
 notes_at_bottom: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104553/Tailor3.jpg
