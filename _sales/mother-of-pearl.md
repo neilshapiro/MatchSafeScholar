@@ -3,7 +3,7 @@ item_id: 8
 title: "Mother of Pearl "
 age: C.1880
 notes_at_bottom: false
-price: $275.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538850/MOP3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538848/MOP2.jpg
