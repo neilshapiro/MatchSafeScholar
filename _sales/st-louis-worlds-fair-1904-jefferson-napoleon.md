@@ -9,8 +9,8 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104518/St.Louis1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104516/ST.Louis2.jpg
 ---
-St. Louis World's Fair, 1904. Images of Napoleon & jefferson on one side. The other side has the Machinery Bldg. from the Fair.
-
-
+St. Louis World's Fair, 1904. Images of Napoleon & Jefferson on one side. The other side has the Machinery Bldg. from the Fair.
 
 Excellent condition
+
+Sold
