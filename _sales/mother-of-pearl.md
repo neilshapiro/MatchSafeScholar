@@ -18,3 +18,5 @@ images:
 **Condition:	Excellent, the letter “H” is etched on front side**
 
 **Notes:		The nacre is particularly luminescent on this safe.**
+
+**Sold**
