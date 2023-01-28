@@ -11,14 +11,12 @@ images:
 ---
 **Title:		Figural Wm. Gladstone** 
 
-
 **Material:	Plated silver over brass or nickel plated brass**
-
 
 **Maker:	        Unknown, c.1900**
 
-
 **Condition:	Excellent**
 
-
 **Notes:		Carefully modeled head of Wm. Gladstone**
+
+**Sold**
