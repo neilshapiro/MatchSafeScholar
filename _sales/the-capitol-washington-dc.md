@@ -4,7 +4,7 @@ title: Washington Monument & the Capitol Washington, DC
 age: c.1900
 material: Brass
 notes_at_bottom: false
-price: $29.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104260/Cap3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104260/Cap2.jpg
