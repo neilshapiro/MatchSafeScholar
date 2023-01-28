@@ -13,3 +13,5 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104387/injector2.jpg
 ---
 Most aluminum safes are dented when they are 100+ years of age. This safe is in excellent condition.
+
+Sold
