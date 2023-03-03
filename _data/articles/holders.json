@@ -1,44 +1,52 @@
 {
-    "all": [
-        {
-            "title": "Animaliers and Match Holders",
-            "path": "/assets/pdfs/articles/Animaliers_and_Match_Holders.pdf"
-        },
-        {
-            "title": "\"Go-to-Bed\" or Simply Match Holder?",
-            "path": "/assets/pdfs/articles/GO-TO-BED_OR_SIMPLY_MATCH_HOLDER.pdf"
-        },
-        {
-            "title": "A Clue to the Maker or Origin of the Friar/Monk Match Holder",
-            "path": "/assets/pdfs/articles/A_Clue_to_the_Maker_or_Origin_of_the_Friar_Monk_Match_Holder.pdf"
-        },
-        {
-            "title": "Bollard or Barrel?",
-            "path": "/assets/pdfs/articles/Bollard_or_Barrel.pdf"
-        },
-        {
-            "title": "Three Quirky Advertising Match Holders",
-            "path": "/assets/pdfs/articles/Three_Quirky_Advertising_Match_Holders.pdf"
-        },
-        {
-            "title": "Joseph Glanz's Match Holders",
-            "path": "/assets/pdfs/articles/Joseph_Glanz's_Match_Holders.pdf"
-        },
-        {
-            "title": "A Tale of Two Match Holders",
-            "path": "/assets/pdfs/articles/A_Tale_of_Two_Match_Holders.pdf"
-        },
-        {
-            "title": "Reconsidering a Match Holder",
-            "path": "/assets/pdfs/articles/Reconsidering_a_Match_Holder.pdf"
-        },
-        {
-            "title": "Match Holder Originals or Reproductions",
-            "path": "/assets/pdfs/articles/Match_Holder_Originals_or_Reproductions.pdf"
-        },
-        {
-            "title": "A Bear Playing an Instrument Match Holder",
-            "path": "/assets/pdfs/articles/A_Bear_Playing_an_Instrument_Match_Holder.pdf"
-        }
-    ]
+  "all": [
+    {
+      "title": "Animaliers and Match Holders",
+      "path": "/assets/pdfs/articles/Animaliers_and_Match_Holders.pdf"
+    },
+    {
+      "title": "\"Go-to-Bed\" or Simply Match Holder?",
+      "path": "/assets/pdfs/articles/GO-TO-BED_OR_SIMPLY_MATCH_HOLDER.pdf"
+    },
+    {
+      "title": "A Clue to the Maker or Origin of the Friar/Monk Match Holder",
+      "path": "/assets/pdfs/articles/A_Clue_to_the_Maker_or_Origin_of_the_Friar_Monk_Match_Holder.pdf"
+    },
+    {
+      "title": "Bollard or Barrel?",
+      "path": "/assets/pdfs/articles/Bollard_or_Barrel.pdf"
+    },
+    {
+      "title": "Three Quirky Advertising Match Holders",
+      "path": "/assets/pdfs/articles/Three_Quirky_Advertising_Match_Holders.pdf"
+    },
+    {
+      "title": "Joseph Glanz's Match Holders",
+      "path": "/assets/pdfs/articles/Joseph_Glanz's_Match_Holders.pdf"
+    },
+    {
+      "title": "A Tale of Two Match Holders",
+      "path": "/assets/pdfs/articles/A_Tale_of_Two_Match_Holders.pdf"
+    },
+    {
+      "title": "Reconsidering a Match Holder",
+      "path": "/assets/pdfs/articles/Reconsidering_a_Match_Holder.pdf"
+    },
+    {
+      "title": "Match Holder Originals or Reproductions",
+      "path": "/assets/pdfs/articles/Match_Holder_Originals_or_Reproductions.pdf"
+    },
+    {
+      "title": "A Bear Playing an Instrument Match Holder",
+      "path": "/assets/pdfs/articles/A_Bear_Playing_an_Instrument_Match_Holder.pdf"
+    },
+    {
+      "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1677854845/Two_Travel_Compendiums_with_Compartments_for_Matches.pdf",
+      "title": "Two Travel Compendiums with Compartments for Matches"
+    },
+    {
+      "title": "Two Travel Compendiums with Compartments for Matches",
+      "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1677855338/articles/Two_Travel_Compendiums_with_Compartments_for_Matches.pdf"
+    }
+  ]
 }
