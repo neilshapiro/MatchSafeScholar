@@ -3,7 +3,7 @@ item_id: 50
 title: Japanese Ivory w/Extraordinary raised monogram
 age: c.1900
 notes_at_bottom: false
-price: $395.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882497/Ivory1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882496/ivory2.jpg
