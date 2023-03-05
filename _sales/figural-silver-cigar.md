@@ -4,7 +4,7 @@ title: "Figural Silver Cigar "
 age: c.1900
 measurements: 4 1/2" long
 notes_at_bottom: false
-price: $255.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538790/Cigar2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538789/Cigar1.jpg
