@@ -3,7 +3,7 @@ item_id: 45
 title: Sterling Gorham Butterfly Woman Art Nouveau
 age: c.1904
 notes_at_bottom: false
-price: $875.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538786/Butterfly_open.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538785/Butterfly_front.jpg
