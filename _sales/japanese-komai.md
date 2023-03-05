@@ -3,7 +3,7 @@ item_id: 23
 title: Japanese Komai
 age: c.1900
 notes_at_bottom: false
-price: $175.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538834/Komai3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538833/Komai1.jpg
