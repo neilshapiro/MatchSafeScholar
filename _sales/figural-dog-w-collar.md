@@ -4,7 +4,7 @@ title: Figural Dog w/collar
 age: c.1880
 material: ""
 notes_at_bottom: false
-price: $275.00
+price: Sold
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538789/dog1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538792/dog2.jpg
