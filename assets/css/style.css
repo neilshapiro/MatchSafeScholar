@@ -123,6 +123,37 @@ table td {
 .no-padding {
   margin-bottom: 0;
 }
+.tabs {  
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.tabs button {
+  color: black;
+  border-radius: 0;
+  border-color: lightgray;
+}
+.tabs button:hover {
+  color: black;
+  border-color: gray;
+}
+.tabs button:focus {
+  box-shadow: none;
+}
+.tabs .is-active {
+  background-color: lightgray;
+}
+.tabs button:not(.is-active):hover {
+  background-color: #fafafa;
+}
+.tab-panel {
+  display: none;
+}
+.tab-panel.is-active {
+  display: block;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

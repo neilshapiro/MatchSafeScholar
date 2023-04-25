@@ -1,26 +1,30 @@
 ---
 layout: default
 title: Sales
+include_script: true
 ---
 <h2 class="page-content-title">SALES</h2>
-<p style="margin-bottom:30px;">
+<p style="margin-bottom:20px;">
   These are match safes currently for sale. Please <a href="/contact">contact me</a> if you have any questions.<br>
   <i>Click on images to see the full descriptions.</i>
 </p>
-<div class="grid">
-  {% for item in site.sales %}
-  <div class="grid-item">
-    <a href="{{ item.url }}">
-      <img class="item-img" src="{{ item.images[0] | default: item.images | replace: '/upload/', '/upload/t_sales_thumb/' }}">
-    </a>
-    <a class="item-title" href="{{ item.url }}">
-      {% if item.item_id and item.item_id != empty %}
-        {{ item.item_id | append: ": " }}
-      {% endif %}
-      {{ item.title }}
-    </a>
-    <div class="item-year">{{ item.age }}</div>
-    <div class="item-price">{{ item.price }}</div>
-  </div>
-  {% endfor %}
+<ul class="tabs" role="tablist">
+  <li role="presentation">
+    <button class="btn btn-outline-secondary is-active" id="for-sale-tab" type="button" role="tab" aria-controls="for-sale-content" aria-selected="true">
+      For Sale
+    </button>
+  </li>
+  <li role="presentation">
+    <button class="btn btn-outline-secondary" id="sold-tab" type="button" role="tab" aria-controls="sold-content" aria-selected="false">
+      Sold
+    </button>
+  </li>
+</ul>
+<div class="tab-panel is-active" id="for-sale-content" role="tabpanel" aria-labelledby="for-sale-tab" tabindex="0">
+  {% assign for_sale_items = site.sales | where_exp: 'item', 'item.sold == nil or item.sold == false' %}
+  {% include sale-items.html items=for_sale_items %}
+</div>
+<div class="tab-panel" id="sold-content" role="tabpanel" aria-labelledby="sold-tab" tabindex="0">
+  {% assign sold_items = site.sales | where: 'sold', true %}
+  {% include sale-items.html items=sold_items %}
 </div>

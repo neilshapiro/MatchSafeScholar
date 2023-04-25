@@ -1,0 +1,27 @@
+<div class="grid">
+  {% for item in include.items %}
+  <div class="grid-item">
+    <a href="{{ item.url }}">
+      <img
+        class="item-img"
+        {% if item.sold %}
+        data-src=
+        {% else %}
+        src=
+        {% endif %}
+        "{{ item.images[0] | default: item.images | replace: '/upload/', '/upload/t_sales_thumb/' }}"
+      >
+    </a>
+    <a class="item-title" href="{{ item.url }}">
+      {% if item.item_id and item.item_id != empty %}
+      {{ item.item_id | append: ": " }}
+      {% endif %}
+      {{ item.title }}
+    </a>
+    <div class="item-year">{{ item.age }}</div>
+    {% unless item.sold %}
+    <div class="item-price">{{ item.price }}</div>
+    {% endunless %}
+  </div>
+  {% endfor %}
+</div>

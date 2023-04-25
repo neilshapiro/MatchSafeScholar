@@ -5,6 +5,7 @@ age: c.1900
 material: Nickel plated brass
 notes_at_bottom: false
 price: Sold
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104553/Tailor3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104551/trick1.jpg

@@ -124,6 +124,7 @@ collections:
       - {label: "Notes", name: "body", widget: "markdown", minimal: true, required: false}
       - {label: "Move Notes to Bottom", name: "notes_at_bottom", widget: "boolean", default: false, required: false}
       - {label: "Price", name: "price", widget: "string", required: false}
+      - {label: "Sold", name: "sold", widget: "boolean", default: false}
       - label: "Images"
         name: "images"
         widget: "image"
