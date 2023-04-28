@@ -19,9 +19,7 @@
       {{ item.title }}
     </a>
     <div class="item-year">{{ item.age }}</div>
-    {% unless item.sold %}
     <div class="item-price">{{ item.price }}</div>
-    {% endunless %}
   </div>
   {% endfor %}
 </div>
