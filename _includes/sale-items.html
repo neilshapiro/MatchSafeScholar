@@ -10,6 +10,7 @@
         src=
         {% endif %}
         "{{ item.images[0] | default: item.images | replace: '/upload/', '/upload/t_sales_thumb/' }}"
+        alt="Image of {{ item.title }} match safe"
       >
     </a>
     <a class="item-title" href="{{ item.url }}">
