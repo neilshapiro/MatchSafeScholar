@@ -129,7 +129,6 @@ table td {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-  display: none;
 }
 .tabs button {
   color: black;
