@@ -5,11 +5,11 @@ age: "1900"
 material: Enamel & 900 silver
 notes_at_bottom: false
 price: $1,150.00
+sold: true
 images:
-  - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538811/GAS4.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538809/GAS1.jpg
 ---
-**Title:		GAS enamel**
+**Title:		GAS enamel *trompe l'oeil*** 
 
 **Material: 	Enamel & 900 silver**
 
