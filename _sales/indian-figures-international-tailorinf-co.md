@@ -4,7 +4,7 @@ title: "International Tailoring Co. w/Indian Figures "
 age: c.1900
 material: Nickel plated brass
 notes_at_bottom: false
-price: Sold
+price: $40.00
 sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1670104553/Tailor3.jpg

@@ -5,7 +5,7 @@ age: c.1904
 material: Nickel plated brass
 notes_at_bottom: false
 price: $40.00
-sold: true
+sold: false
 images: https://res.cloudinary.com/matchsafescholar/image/upload/v1670104214/BPOE3.jpg
 ---
 Very good condition

@@ -5,7 +5,7 @@ age: "1900"
 material: Enamel & 900 silver
 notes_at_bottom: false
 price: $1,150.00
-sold: true
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538809/GAS1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1655956354/sales/gas4.jpg
