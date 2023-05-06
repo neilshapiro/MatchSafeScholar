@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<h2 class="page-content-title">SALES</h2>
+<p style="margin-bottom:20px;">
+  These are match safes currently for sale. Please <a href="/contact">contact me</a> if you have any questions.<br>
+  <i>Click on images to see the full descriptions.</i>
+</p>
+<ul class="tabs">
+  <li>
+    <a href="/sales" class="btn btn-outline-secondary {% if page.title == 'For Sale' %}is-active{% endif %}">
+      For Sale
+    </a>
+  </li>
+  <li>
+    <a href="/sold" class="btn btn-outline-secondary {% if page.title == 'Sold' %}is-active{% endif %}">
+      Sold
+    </a>
+  </li>
+</ul>
+<div class="grid">
+  {% if page.title == "For Sale" %}
+  {% assign items = site.sales | where_exp: 'item', 'item.sold == nil or item.sold == false' %}
+  {% else %}
+  {% assign items = site.sales | where: 'sold', true %}
+  {% endif %}
+  {% for item in items %}
+  <div class="grid-item">
+    <a href="{{ item.url }}">
+      <img
+        class="item-img"
+        src="{{ item.images[0] | default: item.images | replace: '/upload/', '/upload/t_sales_thumb/' }}"
+        alt="Image of {{ item.title }} match safe"
+      >
+    </a>
+    <a class="item-title" href="{{ item.url }}">
+      {% if item.item_id and item.item_id != empty %}
+      {{ item.item_id | append: ": " }}
+      {% endif %}
+      {{ item.title }}
+    </a>
+    <div class="item-year">{{ item.age }}</div>
+    <div class="item-price">{{ item.price }}</div>
+  </div>
+  {% endfor %}
+</div>
