@@ -8,12 +8,12 @@ layout: default
 </p>
 <ul class="tabs">
   <li>
-    <a href="/sales" class="btn btn-outline-secondary {% if page.title == 'For Sale' %}is-active{% endif %}">
+    <a href="/sales" class="btn btn-outline-secondary{% if page.title == 'For Sale' %} is-active" aria-current="page{% endif %}">
       For Sale
     </a>
   </li>
   <li>
-    <a href="/sold" class="btn btn-outline-secondary {% if page.title == 'Sold' %}is-active{% endif %}">
+    <a href="/sold" class="btn btn-outline-secondary{% if page.title == 'Sold' %} is-active" aria-current="page{% endif %}">
       Sold
     </a>
   </li>
