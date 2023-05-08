@@ -3,7 +3,12 @@ layout: default
 ---
 <h2 class="page-content-title">SALES</h2>
 <p style="margin-bottom:20px;">
-  These are match safes currently for sale. Please <a href="/contact">contact me</a> if you have any questions.<br>
+  {%- if page.title == 'For Sale' %}
+  These are match safes currently for sale.
+  {% else %}
+  These match safes have been sold.
+  {% endif -%}
+  Please <a href="/contact">contact me</a> if you have any questions.<br>
   <i>Click on images to see the full descriptions.</i>
 </p>
 <ul class="tabs">
