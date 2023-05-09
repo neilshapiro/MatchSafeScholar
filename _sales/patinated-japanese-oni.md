@@ -4,6 +4,7 @@ title: Patinated Japanese ONI
 age: c.1900
 notes_at_bottom: false
 price: $275.00
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681927953/oni6.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681927953/oni5.jpg
