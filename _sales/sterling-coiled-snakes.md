@@ -4,6 +4,7 @@ title: Sterling Coiled Snakes
 age: c.1890
 notes_at_bottom: false
 price: $255.00
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538867/Twist_snakes1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538871/Twist_snakes4.jpg
