@@ -4,6 +4,7 @@ title: " Enamel & Vermeil Silver Gorham"
 age: "1897"
 notes_at_bottom: false
 price: $1,490.00
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882391/Gorham1390.open1_small.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882391/Granulation_closed_small.jpg
