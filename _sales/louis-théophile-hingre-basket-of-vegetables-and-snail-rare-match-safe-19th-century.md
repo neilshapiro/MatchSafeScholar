@@ -29,10 +29,7 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1696877559/1180926-alb-64e09abee9986.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1696877559/1180926-alb-64e09abf29f90.jpg
 ---
-
-
 Louis Théophile Hingre, Basket of Vegetables and Snail, Match Safe, 19th century.
-
 
 Very beautiful and rare match safe in bronze by Théophile Hingre, representing a basket of
 vegetables on which a golden snail evolves. The lid simulates vegetables. Very good quality of
@@ -45,10 +42,8 @@ sculptor. The wicker work on the basket is articulated and accented with climbin
 Clinging to those vines is a patinated garden snail. The lid is an assemblage of vegetables with
 the leaves of a root vegetable acting as a thumb lift.
 
-
 The double patina is intact, that is, the body and lid on the match safe is a darker color and the
 snail is a golden patina. The striker is a ribbed area on the back of the safe.
-
 
 Hingre was undoubtedly influenced by Japonisme, the aesthetic movement that began in the
 1870s and swept the Western world’s design ethos for the next 40 years. It also morphed into
@@ -57,11 +52,10 @@ often erroneously thought to have been entirely creations of the West but imposs
 previous exposure to Japanese art and design. Echoes of Art Nouveau can be found in the
 trailing vines on the basket and the asymmetry of the design.
 
-
 Louis Théophile Hingre (also known as Théophile Hingre) was a French painter, sculptor,
 engraver, illustrator, and poster artist. He was born in 1832 in Écouen, where he also died, in 1911. His specialty was sculptures of animals. Hingre, because of politics, moved to England. While in England, he worked in Birmingham as the ornamental sculptor of Elkington & Co. During this employment Hingre first began to sculpt
 animals; his first works were horse racing trophies. Hingre exhibited at the Paris Salon in 1860,
-despite his British exile. 1Hingre continued to work for Elkington & Co until he returned to France. There Hingre
+despite his British exile. Hingre continued to work for Elkington & Co until he returned to France. There Hingre
 regularly took part in the competitions of the 'Union centrale des arts décoratifs' and exhibited
 almost yearly at the Paris Salon until he was 78. Hingre presented 45 works in the years 1860 to 1911.
 
