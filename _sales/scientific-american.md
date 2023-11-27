@@ -1,9 +1,11 @@
 ---
 item_id: 16
-title: Scientific American
+title: Scientific American w/Gold, Silver & Enamel
 age: "1890"
+material: Gold, silver, enamel
 notes_at_bottom: false
-price: $975.00
+price: $875.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538862/sciAm3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538860/SciAm2.jpg
