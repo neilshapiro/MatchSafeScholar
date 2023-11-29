@@ -4,7 +4,8 @@ title: Japanese silver, enamel wisteria match safe with encrusted enamel work
 age: c.1900
 material: Silver and enamel
 notes_at_bottom: false
-price: $475.00
+price: $375.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681843582/wisteria/wisteria7.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681843635/wisteria/wisteria2.jpg
