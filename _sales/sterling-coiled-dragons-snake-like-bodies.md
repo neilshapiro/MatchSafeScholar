@@ -2,8 +2,10 @@
 item_id: 41
 title: Sterling Coiled Dragons Snake-like bodies (wyverns)
 age: c.1890
+material: Sterling silver
 notes_at_bottom: false
-price: $475.00
+price: $375.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538781/2snakes3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538775/2snakes2.jpg
