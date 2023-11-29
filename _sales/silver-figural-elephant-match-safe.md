@@ -1,18 +1,18 @@
 ---
-item_id: 80
-title: Silver Figural Elephant match safe
+item_id: 81
+title: Brass Figural Elephant match safe
 age: c.1900
 measurements: 2"
-material: Silver
-notes_at_bottom: false
-price: $150.00
-sold: false
+material: Brass
+price: $110.00
+sold: true
 images:
-  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284751/elephant_flat1.jpg
-  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284758/elephant_flatOpen1.1.jpg
-  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284744/elephant_flat_open.jpg
-  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284755/elephant_flat3.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284802/elephant_upright2.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284798/elephant_upright1.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284805/elephant_upright3.jpg
+  - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284809/elephant_upright-open.jpg
 ---
-Title:		Silver figural elephant match safe 
+Title:		Brass figural elephant match safe 
 Condition:	Excellent
-Note:		Ribbed striker on bottom. Marks are rubbed.
+Note:		Ribbed striker on bottom. Suspension ring.
+Price:		$110.00
