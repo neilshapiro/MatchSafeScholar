@@ -2,6 +2,7 @@
 item_id: 75
 title: A DOUBLE PATINATED GILT BRONZE FRENCH SCULTURAL MATCH SAFE
 age: c.1880-1890
+measurements: 3" long
 material: Patinated bronze, bronze gilt
 notes_at_bottom: false
 price: $8,650.00
