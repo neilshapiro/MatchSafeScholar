@@ -5,7 +5,7 @@ age: c.1900
 measurements: 2"
 material: Brass
 price: $110.00
-sold: true
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284802/elephant_upright2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284798/elephant_upright1.jpg
