@@ -2,8 +2,10 @@
 item_id: 52
 title: Signed Japanese/Chinese
 age: c.1900
+material: Silver
 notes_at_bottom: false
-price: $395.00
+price: $275.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882446/bird3.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1668882442/bird2.jpg
