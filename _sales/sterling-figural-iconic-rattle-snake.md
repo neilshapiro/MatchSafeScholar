@@ -2,8 +2,9 @@
 item_id: 43
 title: "Sterling Figural Iconic Rattle Snake, "
 age: c.1890
+material: Sterling silver
 notes_at_bottom: false
-price: $875.00
+price: $675.00
 sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538864/snake1.jpg
