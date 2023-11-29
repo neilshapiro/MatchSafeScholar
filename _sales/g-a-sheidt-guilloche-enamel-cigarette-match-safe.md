@@ -5,7 +5,7 @@ age: c.1900
 measurements: 3 1/2" x 2 1/2"
 material: Guilloche enamel & 900 silver
 notes_at_bottom: false
-price: $1,050.00
+price: $675.00
 sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682795010/gas2.jpg
@@ -22,4 +22,4 @@ Material:     Enamel & 900 silver
 Maker:        Georg Anton Scheidt, Vienna, Austria, c.1900
 Condition:  Excellent condition
 Notes:         A beautiful deep red guilloche enamel with original taper cord for lighting pipes and cigars.
- Scheidt often worked with Koloman Moser and the other Jugenstil artists. Jugendstil (which means “youth style”) started in the 1890s and ended after WWI.
+ Scheidt often worked with Koloman Moser and the other Jugenstil artists. Jugendstil (which means “youth style”) started in the 1890s and ended after WWI. 2 1/2” long. Georg Adam Scheid was a gold and silversmith with premises on the Gumpendorferstraße from 1882-1903. He was made Knight of the Order of Franz Joseph and worked in silver and enamels. He participated in the Jubilee exhibition of 1889 as well as the Paris 1900 Exposition Universelle. Georg A Scheid is well known for his exquisite creations which include vesta (match safe), cigarette and vanity cases.
