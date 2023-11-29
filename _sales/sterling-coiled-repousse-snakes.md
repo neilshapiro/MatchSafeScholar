@@ -2,8 +2,10 @@
 item_id: 42
 title: Sterling Coiled Repousse Snakes
 age: c.1890
+material: Sterling silver
 notes_at_bottom: false
-price: $375.00
+price: $275.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681846965/snakes/rattler1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681846963/snakes/rattler3.jpg
