@@ -1,6 +1,6 @@
 ---
 item_id: 79
-title: Crystal & Silver Mermeil French Match Safe
+title: Crystal & Silver Vermeil French Match Safe
 age: c.1890
 measurements: 1 3/4" long
 material: Crystal & silver vermeil
