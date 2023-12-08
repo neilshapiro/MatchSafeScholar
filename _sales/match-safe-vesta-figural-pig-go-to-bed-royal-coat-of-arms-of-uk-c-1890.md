@@ -1,11 +1,12 @@
 ---
 item_id: 73
-title: Match Safe Vesta Figural Pig Go-To-Bed & Royal Coat of Arms of UK, c.1890
+title: Figural Pig Go-To-Bed & Royal Coat of Arms of UK, c.1890
 age: c.1890
 measurements: 2" long
 material: Brass
 notes_at_bottom: false
 price: $58.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682265012/sales/pig5.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682265012/sales/pig6.jpg
