@@ -1,11 +1,12 @@
 ---
 item_id: 72
-title: Match Safe Vesta Figural Cork for Bollinger Reg. Design 1878
+title: Figural Cork for Bollinger Reg. Design 1878
 age: c.1878
 measurements: 1 3/4" long x 1" diameter
 material: Cork & brass
 notes_at_bottom: false
 price: $78.00
+sold: false
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682264578/Boll1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682264578/boll2.jpg
