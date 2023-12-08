@@ -1,6 +1,6 @@
 ---
 item_id: 78
-title: Figural Horse Head (American)
+title: Sterling Figural Horse Head (American)
 age: c.1900
 measurements: 2 1/2" long
 material: Sterling silver
