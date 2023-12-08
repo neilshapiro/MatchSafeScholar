@@ -1,6 +1,6 @@
 ---
 item_id: 84
-title: Silver Niello match safe & Cigarette Case
+title: Silver Niello Match Safe & Cigarette Case
 age: c.1900
 measurements: "safe: 1 ¾’ x 1 ¼”, case 3” x 2”"
 material: Silver & niello
