@@ -89,10 +89,6 @@
       "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1704550232/Japonisme_essay.pdf"
     },
     {
-      "title": "Cannetille Wire Work",
-      "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1704550723/cannetille.pdf"
-    },
-    {
       "title": "The Most Famous Horse in the USA in 1900",
       "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1716498677/Dan_Patch_Essay.pdf"
     },
@@ -103,6 +99,10 @@
     {
       "title": "An American Match Safe with a Japanese Aesthetic",
       "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1740582443/An_American_Match_Safe_with_a_Japanese_Aesthetic.pdf"
+    },
+    {
+      "title": "Cannetille Wire Work",
+      "path": "https://res.cloudinary.com/matchsafescholar/image/upload/v1740583508/Cannetille_Wire_Work.pdf"
     }
   ]
 }
