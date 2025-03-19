@@ -5,7 +5,7 @@ age: "1895"
 material: Sterling & enamel
 notes_at_bottom: false
 price: $ 825.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538780/Boat4.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1656538779/Boat5.jpg
