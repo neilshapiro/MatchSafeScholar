@@ -6,7 +6,7 @@ measurements: 1 3/4"
 material: Painted tin
 notes_at_bottom: false
 price: $85.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284852/wax1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701284867/wax5.jpg
