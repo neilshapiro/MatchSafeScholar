@@ -4,7 +4,7 @@ title: Brass figural fish with glass eyes
 age: c.1900
 measurements: '2 1/2" '
 material: Brass
-notes_at_bottom: false
+notes_at_bottom: true
 price: $95.00
 sold: false
 images:
