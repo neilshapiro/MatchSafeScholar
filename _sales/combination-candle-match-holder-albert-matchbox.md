@@ -6,7 +6,7 @@ measurements: 4" long (closed)
 material: Brass
 notes_at_bottom: false
 price: $155.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1702056164/Wharton2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681843433/Wharton1.jpg
