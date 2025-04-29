@@ -6,7 +6,7 @@ measurements: 1 3/4" long x 1" diameter
 material: Cork & brass
 notes_at_bottom: false
 price: $78.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682264578/Boll1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682264578/boll2.jpg
