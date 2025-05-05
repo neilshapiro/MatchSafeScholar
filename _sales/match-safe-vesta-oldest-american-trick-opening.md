@@ -14,6 +14,7 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746465732/Hubbell4.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746465728/Hubbell2.jpg
 ---
-
 Condition: Excellent
+
+
 Notes: Safe made to a patent by Wm. Hubbell in 1876, #176,863
