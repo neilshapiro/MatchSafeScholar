@@ -14,6 +14,8 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746456762/ally1.1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746456758/Ally_striker.jpg
 ---
+Condition: Very good, some loss of nickel plating
+
 The striker is at the base of Ally Sloper’s chin. Ally Sloper was created by C.H.
 Ross in 1867. This safe is from a registered design of 1888 by F. Tomkinson. Made in
 the UK.
