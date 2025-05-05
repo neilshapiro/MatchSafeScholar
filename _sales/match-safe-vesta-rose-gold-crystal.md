@@ -14,6 +14,8 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1745965972/crystal4.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1745965971/crystal1.jpg
 ---
+Condition: Excellent
+
 Note: Safe made by Streeter & Co. Ltd., a very high-end jeweler in London. In Streeter’s
 catalogue of 1900 is 1325. Streeter’s was located at 18 New Bond Street, London.
 The marks are rubbed so the carat and assay office can’t be easily and definitively read.
