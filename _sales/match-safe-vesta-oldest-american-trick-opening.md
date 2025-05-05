@@ -17,4 +17,5 @@ images:
 Condition: Excellent
 
 
+
 Notes: Safe made to a patent by Wm. Hubbell in 1876, #176,863
