@@ -17,5 +17,7 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746204946/coin2.jpg
 ---
 Condition: Excellent
+
+
 Notes: Safe is formed from 1905.”a large George III copper “Cartwheel” two pence coin with
 attached suspension ring with hinged lid. Engraved on edge” J.B. Xmas,
