@@ -6,7 +6,7 @@ measurements: '2 1/2" '
 material: Brass
 notes_at_bottom: true
 price: $95.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701283017/fish1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701283018/fish2.jpg
