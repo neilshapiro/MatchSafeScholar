@@ -16,5 +16,7 @@ images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746457213/Baker_striker.jpg
 ---
 Condition: Excellent
+
+
 Notes: Made to a registered design #26844, to Thomas Turner & Co., Wolverhampton,
 UK, business named Phoenix Lock & Metal works.
