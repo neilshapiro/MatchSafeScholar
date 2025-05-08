@@ -6,7 +6,7 @@ measurements: 1 3/4" diameter 1/4" thick
 material: Silver (untested) & copper
 notes_at_bottom: false
 price: $375.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746457285/coin_color1.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746205005/coin1.3.jpg
