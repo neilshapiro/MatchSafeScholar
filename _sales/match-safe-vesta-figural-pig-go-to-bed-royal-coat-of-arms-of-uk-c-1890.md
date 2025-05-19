@@ -6,7 +6,7 @@ measurements: 2" long
 material: Brass
 notes_at_bottom: false
 price: $58.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682265012/sales/pig5.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1682265012/sales/pig6.jpg
