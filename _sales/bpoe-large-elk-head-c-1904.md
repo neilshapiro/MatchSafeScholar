@@ -6,7 +6,7 @@ measurements: 2 1/2” long
 material: Sterling silver
 notes_at_bottom: false
 price: $115.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681927749/bpoe4.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1681927750/bpoe5.jpg
