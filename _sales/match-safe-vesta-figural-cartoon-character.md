@@ -6,7 +6,7 @@ measurements: 2” x 1 1/2”
 material: Nickel plated brass
 notes_at_bottom: false
 price: $95.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746456764/ally1.2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746456767/Ally1.3.jpg
