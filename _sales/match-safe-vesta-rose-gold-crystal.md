@@ -6,7 +6,7 @@ measurements: 1 7/8” x 1 ½”
 material: Rose gold & crystal
 notes_at_bottom: false
 price: $725.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1745965971/crystal2.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1745965972/crystal5.jpg
