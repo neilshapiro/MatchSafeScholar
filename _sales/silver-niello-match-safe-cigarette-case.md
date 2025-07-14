@@ -6,7 +6,7 @@ measurements: "safe: 1 ¾’ x 1 ¼”, case 3” x 2”"
 material: Silver & niello
 notes_at_bottom: false
 price: $145.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701295930/Niello8.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1701295930/niello7.jpg
