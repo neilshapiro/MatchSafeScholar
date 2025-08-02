@@ -6,7 +6,7 @@ measurements: 1 3/4" x 1"
 material: Nickel plated brass
 notes_at_bottom: false
 price: $75.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746457212/Baker_open.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746457216/Baker1.4.jpg
