@@ -6,7 +6,7 @@ measurements: " 2 1/4” x 1”"
 material: Nickel plated brass
 notes_at_bottom: false
 price: $75.00
-sold: false
+sold: true
 images:
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746465734/Hubbell5.jpg
   - https://res.cloudinary.com/matchsafescholar/image/upload/v1746465727/Hubbell1.jpg
